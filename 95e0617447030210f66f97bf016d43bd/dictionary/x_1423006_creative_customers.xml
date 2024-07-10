@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0291213c47030210f66f97bf016d43fb" label="Customer Profile" max_length="40" name="x_1423006_creative_customers" type="collection">
+        <element label="Zip Code" max_length="40" name="zip_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element label="Order History" max_length="32" name="order_history" reference="x_1423006_creative_orders" type="reference"/>
+        <element default="+1" label="Cell" max_length="40" name="cell" type="phone_number_e164"/>
+        <element label="Last Name" mandatory="true" max_length="40" name="last_name" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Street Address" mandatory="true" max_length="40" name="address" type="string"/>
+        <index name="index">
+            <element name="order_history"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css>@import url(https://fonts.googleapis.com/css?family=Righteous|Roboto&amp;display=swap);&#13;
+&#13;
+* {&#13;
+  box-sizing: border-box;&#13;
+}&#13;
+&#13;
+body {&#13;
+  background: whitesmoke;&#13;
+/*   background-image : linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url('https://pixy.org/src/474/4745483.png'); */&#13;
+  font-family: Righteous;&#13;
+  font-size: 30px;&#13;
+  display : flex;&#13;
+  flex-direction :column;&#13;
+  justify-content:center;&#13;
+  align-items : center;&#13;
+}&#13;
+&#13;
+.form-container {&#13;
+  width: 100%;&#13;
+  background:white;&#13;
+  display: flex;&#13;
+  flex-direction: column;&#13;
+  flex-wrap: wrap;&#13;
+  box-shadow : 1px 1px 5px 4px rgba(56, 56, 56, 0.36);&#13;
+  padding : 3rem;&#13;
+}&#13;
+&#13;
+.login__form {&#13;
+  padding-left: 5rem;&#13;
+  width: 100%;&#13;
+}&#13;
+&#13;
+.field-container {&#13;
+  display: flex;&#13;
+  padding-top: 1rem;&#13;
+  align-content: center;&#13;
+  flex-direction: row;&#13;
+  flex-wrap: wrap;&#13;
+}&#13;
+&#13;
+input {&#13;
+  cursor: text;&#13;
+}&#13;
+&#13;
+.start-form-label {&#13;
+  width: 30%;&#13;
+}&#13;
+&#13;
+.input-container {&#13;
+  width: 21rem;&#13;
+  display: flex;&#13;
+  flex-direction :row;&#13;
+  flex-wrap: nowrap;&#13;
+  justify-content : space-around;&#13;
+}&#13;
+&#13;
+.start-form-input {&#13;
+  display: inline-block;&#13;
+  border: transparent;&#13;
+  height: 2.5rem;&#13;
+  font-family: Roboto;&#13;
+  font-size: 1.5rem;&#13;
+  font-style: normal;&#13;
+  font-weight: 500;&#13;
+  width: 100%;&#13;
+  padding: 0.3rem;&#13;
+  border-radius: 3px;&#13;
+  line-height: 1rem;&#13;
+  box-shadow: 1px 1px 5px 1px rgba(56, 56, 56, 0.36);&#13;
+  transition: 0.3s ease-in;&#13;
+}&#13;
+&#13;
+.start-form-input:focus {&#13;
+  transform: scale(1.02);&#13;
+}&#13;
+&#13;
+.start-form-input::before {&#13;
+  content: " : ";&#13;
+}&#13;
+&#13;
+.start-form-input[type="password"] {&#13;
+  letter-spacing: 2px;&#13;
+  font-size: 4rem;&#13;
+}&#13;
+&#13;
+.bracket {&#13;
+  padding-bottom: 3rem;&#13;
+  padding-top: 3rem;&#13;
+  color: black;&#13;
+  font-size: 3rem;&#13;
+  opacity: 0.5;&#13;
+}&#13;
+&#13;
+.form-submit{&#13;
+  padding-top : 3rem;&#13;
+}&#13;
+&#13;
+.login__form_submit{&#13;
+  background : transparent;&#13;
+  font-size : 1.5rem;&#13;
+  font-family : inherit;&#13;
+  border: transparent;&#13;
+  padding-top: 1rem;&#13;
+  border : 4px solid red;&#13;
+  letter-spacing : 1px;&#13;
+  transition : 0.5s ease-in-out;&#13;
+  margin : 2px;&#13;
+  display:inline-block;&#13;
+  border-radius : 3px;&#13;
+  box-shadow : 1px 1px 5px 3px rgba(56, 56, 56, 0.36);&#13;
+}&#13;
+&#13;
+&#13;
+.login__form_submit:hover{&#13;
+  background-color: red;&#13;
+  transform : scale(1.05);&#13;
+  box-shadow : 1px 1px 10px 3px rgba(56, 56, 56, 0.36);&#13;
+  color: white;&#13;
+  cursor:pointer;&#13;
+  &#13;
+}&#13;
+.login__form_submit:focus{&#13;
+  background-color: red;&#13;
+  transform : scale(1.05);&#13;
+  box-shadow : 1px 1px 10px 3px rgba(56, 56, 56, 0.36);&#13;
+  color: white;&#13;
+  cursor:pointer;&#13;
+}&#13;
+&#13;
+.login__form_submit:active{&#13;
+  background-color: red;&#13;
+  transform : scale(1);&#13;
+  box-shadow : 1px 1px 5px 3px rgba(56, 56, 56, 0.36);&#13;
+  color: white;&#13;
+  cursor:pointer;&#13;
+}</css>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">2fc871fc47830210f66f97bf016d4389</sp_column>
+        <sp_widget display_value="Login">6506d341cb33020000f8d856634c9cdc</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-25 00:19:26</sys_created_on>
+        <sys_id>61d831bc47830210f66f97bf016d438c</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Login Box</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sp_instance_61d831bc47830210f66f97bf016d438c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-03 03:57:13</sys_updated_on>
+        <title>Login Box</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"show_panel": {
+		"value": "true",
+		"displayValue": "false"
+	},
+	"use_advanced": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=61d831bc47830210f66f97bf016d438c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>sp_instance_61d831bc47830210f66f97bf016d438c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css&gt;@import url(https://fonts.googleapis.com/css?family=Righteous|Roboto&amp;amp;display=swap);&amp;#13;
+&amp;#13;
+* {&amp;#13;
+  box-sizing: border-box;&amp;#13;
+}&amp;#13;
+&amp;#13;
+body {&amp;#13;
+  background: whitesmoke;&amp;#13;
+/*   background-image : linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url('https://pixy.org/src/474/4745483.png'); */&amp;#13;
+  font-family: Righteous;&amp;#13;
+  font-size: 30px;&amp;#13;
+  display : flex;&amp;#13;
+  flex-direction :column;&amp;#13;
+  justify-content:center;&amp;#13;
+  align-items : center;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.form-container {&amp;#13;
+  width: 100%;&amp;#13;
+  background:white;&amp;#13;
+  display: flex;&amp;#13;
+  flex-direction: column;&amp;#13;
+  flex-wrap: wrap;&amp;#13;
+  box-shadow : 1px 1px 5px 4px rgba(56, 56, 56, 0.36);&amp;#13;
+  padding : 3rem;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.login__form {&amp;#13;
+  padding-left: 5rem;&amp;#13;
+  width: 100%;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.field-container {&amp;#13;
+  display: flex;&amp;#13;
+  padding-top: 1rem;&amp;#13;
+  align-content: center;&amp;#13;
+  flex-direction: row;&amp;#13;
+  flex-wrap: wrap;&amp;#13;
+}&amp;#13;
+&amp;#13;
+input {&amp;#13;
+  cursor: text;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.start-form-label {&amp;#13;
+  width: 30%;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.input-container {&amp;#13;
+  width: 21rem;&amp;#13;
+  display: flex;&amp;#13;
+  flex-direction :row;&amp;#13;
+  flex-wrap: nowrap;&amp;#13;
+  justify-content : space-around;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.start-form-input {&amp;#13;
+  display: inline-block;&amp;#13;
+  border: transparent;&amp;#13;
+  height: 2.5rem;&amp;#13;
+  font-family: Roboto;&amp;#13;
+  font-size: 1.5rem;&amp;#13;
+  font-style: normal;&amp;#13;
+  font-weight: 500;&amp;#13;
+  width: 100%;&amp;#13;
+  padding: 0.3rem;&amp;#13;
+  border-radius: 3px;&amp;#13;
+  line-height: 1rem;&amp;#13;
+  box-shadow: 1px 1px 5px 1px rgba(56, 56, 56, 0.36);&amp;#13;
+  transition: 0.3s ease-in;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.start-form-input:focus {&amp;#13;
+  transform: scale(1.02);&amp;#13;
+}&amp;#13;
+&amp;#13;
+.start-form-input::before {&amp;#13;
+  content: " : ";&amp;#13;
+}&amp;#13;
+&amp;#13;
+.start-form-input[type="password"] {&amp;#13;
+  letter-spacing: 2px;&amp;#13;
+  font-size: 4rem;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.bracket {&amp;#13;
+  padding-bottom: 3rem;&amp;#13;
+  padding-top: 3rem;&amp;#13;
+  color: black;&amp;#13;
+  font-size: 3rem;&amp;#13;
+  opacity: 0.5;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.form-submit{&amp;#13;
+  padding-top : 3rem;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.login__form_submit{&amp;#13;
+  background : transparent;&amp;#13;
+  font-size : 1.5rem;&amp;#13;
+  font-family : inherit;&amp;#13;
+  border: transparent;&amp;#13;
+  padding-top: 1rem;&amp;#13;
+  border : 4px solid red;&amp;#13;
+  letter-spacing : 1px;&amp;#13;
+  transition : 0.5s ease-in-out;&amp;#13;
+  margin : 2px;&amp;#13;
+  display:inline-block;&amp;#13;
+  border-radius : 3px;&amp;#13;
+  box-shadow : 1px 1px 5px 3px rgba(56, 56, 56, 0.36);&amp;#13;
+}&amp;#13;
+&amp;#13;
+&amp;#13;
+.login__form_submit:hover{&amp;#13;
+  background-color: red;&amp;#13;
+  transform : scale(1.05);&amp;#13;
+  box-shadow : 1px 1px 10px 3px rgba(56, 56, 56, 0.36);&amp;#13;
+  color: white;&amp;#13;
+  cursor:pointer;&amp;#13;
+  &amp;#13;
+}&amp;#13;
+.login__form_submit:focus{&amp;#13;
+  background-color: red;&amp;#13;
+  transform : scale(1.05);&amp;#13;
+  box-shadow : 1px 1px 10px 3px rgba(56, 56, 56, 0.36);&amp;#13;
+  color: white;&amp;#13;
+  cursor:pointer;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.login__form_submit:active{&amp;#13;
+  background-color: red;&amp;#13;
+  transform : scale(1);&amp;#13;
+  box-shadow : 1px 1px 5px 3px rgba(56, 56, 56, 0.36);&amp;#13;
+  color: white;&amp;#13;
+  cursor:pointer;&amp;#13;
+}&lt;/css&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;2fc871fc47830210f66f97bf016d4389&lt;/sp_column&gt;&lt;sp_widget display_value="Login"&gt;6506d341cb33020000f8d856634c9cdc&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-25 00:19:26&lt;/sys_created_on&gt;&lt;sys_id&gt;61d831bc47830210f66f97bf016d438c&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;Login Box&lt;/sys_name&gt;&lt;sys_package display_value="Creative Dreams" source="x_1423006_creative"&gt;95e0617447030210f66f97bf016d43bd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Creative Dreams"&gt;95e0617447030210f66f97bf016d43bd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_61d831bc47830210f66f97bf016d438c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-07-03 03:57:13&lt;/sys_updated_on&gt;&lt;title&gt;Login Box&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"show_panel": {
+		"value": "true",
+		"displayValue": "false"
+	},
+	"use_advanced": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=61d831bc47830210f66f97bf016d438c"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1949590907</payload_hash>
+        <record_name>Login Box</record_name>
+        <reverted_from/>
+        <source>d5e0617447030210f66f97bf016d43c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-03 03:57:13</sys_created_on>
+        <sys_id>0e677fdb470f4210f66f97bf016d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19076bd45280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-03 03:57:13</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>c2677fdb3c0f4210e378b4215c97cdbd</update_guid>
+        <update_guid_history>c2677fdb3c0f4210e378b4215c97cdbd:-1949590907,f32737db5b0f42101db05de442d9cb5b:496528886,cc27b31f270f4210fd5b611960da9ec4:145032633,76e63bdbbf0f42106bd750109716fcaa:496528886,d5a6f7db5d0f421081688cd18c00384d:-1115631197,e94b75b060c30210343ea8035818315d:1318260090,003bf5b043c3021084fe5db3070546a1:-786264563,281bb5b092c3021019dd13adb6dc2b29:1134009256,c10b35b012c30210e063d5981554baa0:-1975260556,94eab170cdc30210e620797b6517206a:-856611949,251af1fc8e830210d57b25e994f1d643:-1975260556,d01a35fc10830210e6a111b375a5d567:-608269273,a179313048c302108c82e55a840ff482:811392148,57d839bc23830210b0e1440b87c06bbd:-1975260556,69d831bc81830210b5f3d17a2be30e8d:1453513339</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Login Box">3f77bb1f470f4210f66f97bf016d4333</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-03 03:57:38</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>9df6ee54ba3646f0a1167b95dcfcb640</sys_id>
+        <sys_metadata>61d831bc47830210f66f97bf016d438c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Login Box</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>sp_instance_61d831bc47830210f66f97bf016d438c</sys_update_name>
+        <sys_update_version display_value="sp_instance_61d831bc47830210f66f97bf016d438c">0e677fdb470f4210f66f97bf016d43bd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-03 03:57:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

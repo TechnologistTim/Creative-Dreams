@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="INSERT_OR_UPDATE">
+        <filter table="sys_app_module">titleLIKEcreative dreams^ORtitleLIKEcd^EQ<item endquery="false" field="title" goto="false" newquery="false" operator="LIKE" or="false" value="creative dreams"/>
+            <item endquery="false" field="title" goto="false" newquery="false" operator="LIKE" or="true" value="cd"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <group display_value="Creative Dreams" name="Creative Dreams">b724fe9747874210f66f97bf016d437e</group>
+        <last_used/>
+        <mobile>false</mobile>
+        <roles/>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-03 03:15:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1fede75f47cb4210f66f97bf016d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Creative Dreams</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sys_filter_1fede75f47cb4210f66f97bf016d43cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-03 03:15:48</sys_updated_on>
+        <table>sys_app_module</table>
+        <title>Creative Dreams</title>
+        <user/>
+    </sys_filter>
+    <sys_translated_text action="delete_multiple" query="documentkey=1fede75f47cb4210f66f97bf016d43cf"/>
+</record_update>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">2fc871fc47830210f66f97bf016d4389</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-25 00:28:20</sys_created_on>
+        <sys_id>cceab17047c30210f66f97bf016d4364</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sp_instance_cceab17047c30210f66f97bf016d4364</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-25 00:28:46</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p>&lt;html lang=\"en\"&gt; &lt;head&gt; &lt;meta charset=\"UTF-8\"&gt; &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt; &lt;title&gt;Service Portal Login&lt;/title&gt; &lt;link rel=\"stylesheet\" href=\"styles.css\"&gt; &lt;/head&gt; &lt;body&gt; &lt;div class=\"login-container\"&gt; &lt;div class=\"login-logo\"&gt; &lt;img src=\"logo.png\" alt=\"Company Logo\"&gt; &lt;/div&gt; &lt;form id=\"loginForm\"&gt; &lt;div class=\"input-group\"&gt; &lt;label for=\"username\"&gt;Username/Email&lt;/label&gt; &lt;input type=\"text\" id=\"username\" name=\"username\" required&gt; &lt;/div&gt; &lt;div class=\"input-group\"&gt; &lt;label for=\"password\"&gt;Password&lt;/label&gt; &lt;input type=\"password\" id=\"password\" name=\"password\" required&gt; &lt;/div&gt; &lt;div class=\"remember-me\"&gt; &lt;input type=\"checkbox\" id=\"rememberMe\" name=\"rememberMe\"&gt; &lt;label for=\"rememberMe\"&gt;Remember Me&lt;/label&gt; &lt;/div&gt; &lt;button type=\"submit\"&gt;Login&lt;/button&gt; &lt;div class=\"forgot-password\"&gt; &lt;a href=\"#\"&gt;Forgot Password?&lt;/a&gt; &lt;/div&gt; &lt;/form&gt; &lt;/div&gt; &lt;script src=\"scripts.js\"&gt;&lt;/script&gt; &lt;/body&gt; &lt;/html&gt;</p>",
+		"displayValue": "<p>&lt;html lang=\"en\"&gt; &lt;head&gt; &lt;meta charset=\"UTF-8\"&gt; &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt; &lt;title&gt;Service Portal Login&lt;/title&gt; &lt;link rel=\"stylesheet\" href=\"styles.css\"&gt; &lt;/head&gt; &lt;body&gt; &lt;div class=\"login-container\"&gt; &lt;div class=\"login-logo\"&gt; &lt;img src=\"logo.png\" alt=\"Company Logo\"&gt; &lt;/div&gt; &lt;form id=\"loginForm\"&gt; &lt;div class=\"input-group\"&gt; &lt;label for=\"username\"&gt;Username/Email&lt;/label&gt; &lt;input type=\"text\" id=\"username\" name=\"username\" required&gt; &lt;/div&gt; &lt;div class=\"input-group\"&gt; &lt;label for=\"password\"&gt;Password&lt;/label&gt; &lt;input type=\"password\" id=\"password\" name=\"password\" required&gt; &lt;/div&gt; &lt;div class=\"remember-me\"&gt; &lt;input type=\"checkbox\" id=\"rememberMe\" name=\"rememberMe\"&gt; &lt;label for=\"rememberMe\"&gt;Remember Me&lt;/label&gt; &lt;/div&gt; &lt;button type=\"submit\"&gt;Login&lt;/button&gt; &lt;div class=\"forgot-password\"&gt; &lt;a href=\"#\"&gt;Forgot Password?&lt;/a&gt; &lt;/div&gt; &lt;/form&gt; &lt;/div&gt; &lt;script src=\"scripts.js\"&gt;&lt;/script&gt; &lt;/body&gt; &lt;/html&gt;</p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=cceab17047c30210f66f97bf016d4364"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>sp_instance_cceab17047c30210f66f97bf016d4364</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;2fc871fc47830210f66f97bf016d4389&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-25 00:28:20&lt;/sys_created_on&gt;&lt;sys_id&gt;cceab17047c30210f66f97bf016d4364&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Creative Dreams" source="x_1423006_creative"&gt;95e0617447030210f66f97bf016d43bd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Creative Dreams"&gt;95e0617447030210f66f97bf016d43bd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_cceab17047c30210f66f97bf016d4364&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-25 00:28:46&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;p&gt;&amp;lt;html lang=\"en\"&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=\"UTF-8\"&amp;gt; &amp;lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&amp;gt; &amp;lt;title&amp;gt;Service Portal Login&amp;lt;/title&amp;gt; &amp;lt;link rel=\"stylesheet\" href=\"styles.css\"&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div class=\"login-container\"&amp;gt; &amp;lt;div class=\"login-logo\"&amp;gt; &amp;lt;img src=\"logo.png\" alt=\"Company Logo\"&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;form id=\"loginForm\"&amp;gt; &amp;lt;div class=\"input-group\"&amp;gt; &amp;lt;label for=\"username\"&amp;gt;Username/Email&amp;lt;/label&amp;gt; &amp;lt;input type=\"text\" id=\"username\" name=\"username\" required&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=\"input-group\"&amp;gt; &amp;lt;label for=\"password\"&amp;gt;Password&amp;lt;/label&amp;gt; &amp;lt;input type=\"password\" id=\"password\" name=\"password\" required&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=\"remember-me\"&amp;gt; &amp;lt;input type=\"checkbox\" id=\"rememberMe\" name=\"rememberMe\"&amp;gt; &amp;lt;label for=\"rememberMe\"&amp;gt;Remember Me&amp;lt;/label&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;button type=\"submit\"&amp;gt;Login&amp;lt;/button&amp;gt; &amp;lt;div class=\"forgot-password\"&amp;gt; &amp;lt;a href=\"#\"&amp;gt;Forgot Password?&amp;lt;/a&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/form&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;script src=\"scripts.js\"&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;&lt;/p&gt;",
+		"displayValue": "&lt;p&gt;&amp;lt;html lang=\"en\"&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=\"UTF-8\"&amp;gt; &amp;lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&amp;gt; &amp;lt;title&amp;gt;Service Portal Login&amp;lt;/title&amp;gt; &amp;lt;link rel=\"stylesheet\" href=\"styles.css\"&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div class=\"login-container\"&amp;gt; &amp;lt;div class=\"login-logo\"&amp;gt; &amp;lt;img src=\"logo.png\" alt=\"Company Logo\"&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;form id=\"loginForm\"&amp;gt; &amp;lt;div class=\"input-group\"&amp;gt; &amp;lt;label for=\"username\"&amp;gt;Username/Email&amp;lt;/label&amp;gt; &amp;lt;input type=\"text\" id=\"username\" name=\"username\" required&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=\"input-group\"&amp;gt; &amp;lt;label for=\"password\"&amp;gt;Password&amp;lt;/label&amp;gt; &amp;lt;input type=\"password\" id=\"password\" name=\"password\" required&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=\"remember-me\"&amp;gt; &amp;lt;input type=\"checkbox\" id=\"rememberMe\" name=\"rememberMe\"&amp;gt; &amp;lt;label for=\"rememberMe\"&amp;gt;Remember Me&amp;lt;/label&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;button type=\"submit\"&amp;gt;Login&amp;lt;/button&amp;gt; &amp;lt;div class=\"forgot-password\"&amp;gt; &amp;lt;a href=\"#\"&amp;gt;Forgot Password?&amp;lt;/a&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/form&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;script src=\"scripts.js\"&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;&lt;/p&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=cceab17047c30210f66f97bf016d4364"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-119778937</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d5e0617447030210f66f97bf016d43c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-25 00:28:46</sys_created_on>
+        <sys_id>2afa313047c30210f66f97bf016d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1904ccb8d2e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-25 00:28:46</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>eefa3130b7c30210dd1a7c3bca6787bd</update_guid>
+        <update_guid_history>eefa3130b7c30210dd1a7c3bca6787bd:-119778937,84eab1702ec30210549a61489bea2266:722769047</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">cd0bb1fc47830210f66f97bf016d4381</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-25 00:28:57</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>1be4719cce41425295d60b48b5d06944</sys_id>
+        <sys_metadata>cceab17047c30210f66f97bf016d4364</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>sp_instance_cceab17047c30210f66f97bf016d4364</sys_update_name>
+        <sys_update_version display_value="sp_instance_cceab17047c30210f66f97bf016d4364">2afa313047c30210f66f97bf016d43be</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-25 00:28:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

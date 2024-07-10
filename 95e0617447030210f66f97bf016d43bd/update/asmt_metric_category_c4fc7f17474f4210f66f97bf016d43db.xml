@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category">
+    <asmt_metric_category action="INSERT_OR_UPDATE">
+        <create_stakeholders>false</create_stakeholders>
+        <description/>
+        <details/>
+        <filter table="asmt_metric_type">sys_id=8cfc7f17474f4210f66f97bf016d43da^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="8cfc7f17474f4210f66f97bf016d43da"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <metric_type display_value="Service Questionaire">8cfc7f17474f4210f66f97bf016d43da</metric_type>
+        <name>Service Questionaire</name>
+        <order>100</order>
+        <qb_evaluation_method/>
+        <roles/>
+        <scoring_type>percent</scoring_type>
+        <sys_class_name>asmt_metric_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-03 04:21:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c4fc7f17474f4210f66f97bf016d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Questionaire</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>asmt_metric_category_c4fc7f17474f4210f66f97bf016d43db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-03 04:21:24</sys_updated_on>
+        <table>asmt_metric_type</table>
+        <total_metrics/>
+        <weight>10</weight>
+    </asmt_metric_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=c4fc7f17474f4210f66f97bf016d43db"/>
+</record_update>

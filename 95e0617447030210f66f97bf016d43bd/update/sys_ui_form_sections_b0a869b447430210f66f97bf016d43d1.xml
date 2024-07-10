@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b0a869b447430210f66f97bf016d43d1" sys_domain="global" table="x_1423006_creative_orders" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-24 23:08:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f0a869b447430210f66f97bf016d43d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1423006_creative_orders" name="x_1423006_creative_orders" sys_domain="global" view="Default view">b0a869b447430210f66f97bf016d43d1</sys_ui_form>
+            <sys_ui_section caption="Order Details" display_value="Order Details" name="x_1423006_creative_orders" sys_domain="global" view="Default view">38a869b447430210f66f97bf016d43ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-24 23:08:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-24 23:08:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>30a869b447430210f66f97bf016d43d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1423006_creative_orders" name="x_1423006_creative_orders" sys_domain="global" view="Default view">b0a869b447430210f66f97bf016d43d1</sys_ui_form>
+            <sys_ui_section caption="Payment Method" display_value="Payment Method" name="x_1423006_creative_orders" sys_domain="global" view="Default view">b8a869b447430210f66f97bf016d43cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-24 23:08:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-24 23:08:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89a869b447430210f66f97bf016d43d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1423006_creative_orders" name="x_1423006_creative_orders" sys_domain="global" view="Default view">b0a869b447430210f66f97bf016d43d1</sys_ui_form>
+            <sys_ui_section caption="Shipping Address" display_value="Shipping Address" name="x_1423006_creative_orders" sys_domain="global" view="Default view">f4a869b447430210f66f97bf016d43d0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-24 23:08:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1423006_creative_orders</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-24 23:08:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0a869b447430210f66f97bf016d43d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1423006_creative_orders</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b0a869b447430210f66f97bf016d43d1</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-24 23:08:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
