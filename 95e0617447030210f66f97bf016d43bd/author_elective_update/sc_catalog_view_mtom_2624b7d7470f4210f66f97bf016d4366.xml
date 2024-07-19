@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="DELETE">
+        <default>true</default>
+        <sc_catalog display_value="Shirts">9904f3d7470f4210f66f97bf016d432f</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-03 03:43:04</sys_created_on>
+        <sys_id>2624b7d7470f4210f66f97bf016d4366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Shirts.catalog_shirts</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_shirts">a624b7d7470f4210f66f97bf016d4364</sys_portal_page>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_2624b7d7470f4210f66f97bf016d4366</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-03 03:43:04</sys_updated_on>
+    </sc_catalog_view_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>sc_catalog_view_mtom_2624b7d7470f4210f66f97bf016d4366</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom"><sc_catalog_view_mtom action="INSERT_OR_UPDATE"><default>true</default><sc_catalog display_value="Shirts">9904f3d7470f4210f66f97bf016d432f</sc_catalog><sys_class_name>sc_catalog_view_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-03 03:43:04</sys_created_on><sys_id>2624b7d7470f4210f66f97bf016d4366</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Shirts.catalog_shirts</sys_name><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_portal_page display_value="catalog_shirts">a624b7d7470f4210f66f97bf016d4364</sys_portal_page><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>sc_catalog_view_mtom_2624b7d7470f4210f66f97bf016d4366</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-03 03:43:04</sys_updated_on></sc_catalog_view_mtom></record_update>]]></payload>
+        <payload_hash>-1695073586</payload_hash>
+        <record_name>Shirts.catalog_shirts</record_name>
+        <reverted_from/>
+        <source>d5e0617447030210f66f97bf016d43c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-03 03:43:04</sys_created_on>
+        <sys_id>fe24b7d7470f4210f66f97bf016d4368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19076b051110000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-03 03:43:04</sys_updated_on>
+        <type>Catalog Portal Page</type>
+        <update_guid>f224b7d7ad0f421020c67f5a6bb61568</update_guid>
+        <update_guid_history>f224b7d7ad0f421020c67f5a6bb61568:-1695073586</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Shirts.catalog_shirts">7db4566447af4610f66f97bf016d431b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 04:14:08</sys_created_on>
+        <sys_db_object display_value="" name="sc_catalog_view_mtom">sc_catalog_view_mtom</sys_db_object>
+        <sys_id>274dc0b7e80c48a4bceb55430009e7f9</sys_id>
+        <sys_metadata>2624b7d7470f4210f66f97bf016d4366</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Shirts.catalog_shirts</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>sc_catalog_view_mtom_2624b7d7470f4210f66f97bf016d4366</sys_update_name>
+        <sys_update_version display_value="sc_catalog_view_mtom_2624b7d7470f4210f66f97bf016d4366">fe24b7d7470f4210f66f97bf016d4368</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 04:14:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

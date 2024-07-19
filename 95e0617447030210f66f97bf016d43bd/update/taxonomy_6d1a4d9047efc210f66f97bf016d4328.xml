@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="taxonomy">
+    <taxonomy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <managers/>
+        <name>Shopping</name>
+        <sys_class_name>taxonomy</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-18 04:09:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6d1a4d9047efc210f66f97bf016d4328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Shopping</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>taxonomy_6d1a4d9047efc210f66f97bf016d4328</sys_update_name>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-18 04:09:43</sys_updated_on>
+    </taxonomy>
+    <sys_translated_text action="delete_multiple" query="documentkey=6d1a4d9047efc210f66f97bf016d4328"/>
+</record_update>

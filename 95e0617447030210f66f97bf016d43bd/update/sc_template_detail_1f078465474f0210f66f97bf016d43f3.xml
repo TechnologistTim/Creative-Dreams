@@ -10,15 +10,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-26 23:57:43</sys_created_on>
         <sys_id>1f078465474f0210f66f97bf016d43f3</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
         <sys_update_name>sc_template_detail_1f078465474f0210f66f97bf016d43f3</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-27 01:28:54</sys_updated_on>
-        <template display_value="Badge reel">86f64465474f0210f66f97bf016d4319</template>
-        <value/>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-18 19:31:09</sys_updated_on>
+        <template display_value="Pens">86f64465474f0210f66f97bf016d4319</template>
+        <value>Design Your Custom Pen</value>
     </sc_template_detail>
 </record_update>

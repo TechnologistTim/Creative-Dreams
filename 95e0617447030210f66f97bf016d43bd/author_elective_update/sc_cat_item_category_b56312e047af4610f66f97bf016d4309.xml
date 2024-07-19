@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Custom Lanyard">d2e252a047af4610f66f97bf016d4396</sc_cat_item>
+        <sc_category display_value="Summer">f774459847afc210f66f97bf016d4352</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-19 04:08:25</sys_created_on>
+        <sys_id>b56312e047af4610f66f97bf016d4309</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Summer.Custom Lanyard</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sc_cat_item_category_b56312e047af4610f66f97bf016d4309</sys_update_name>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-19 04:08:31</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>sc_cat_item_category_b56312e047af4610f66f97bf016d4309</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Custom Lanyard">d2e252a047af4610f66f97bf016d4396</sc_cat_item><sc_category display_value="Summer">f774459847afc210f66f97bf016d4352</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>tim.dingle</sys_created_by><sys_created_on>2024-07-19 04:08:25</sys_created_on><sys_id>b56312e047af4610f66f97bf016d4309</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Summer.Custom Lanyard</sys_name><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>sc_cat_item_category_b56312e047af4610f66f97bf016d4309</sys_update_name><sys_updated_by>tim.dingle</sys_updated_by><sys_updated_on>2024-07-19 04:08:31</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1791833494</payload_hash>
+        <record_name>Summer.Custom Lanyard</record_name>
+        <reverted_from/>
+        <source>db6312e047af4610f66f97bf016d43d0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-19 04:08:31</sys_created_on>
+        <sys_id>5f6352e047af4610f66f97bf016d4320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190c92d5cba0000001</sys_recorded_at>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-19 04:08:31</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>df6352e0daaf4610945029dc79a3ae1f</update_guid>
+        <update_guid_history>df6352e0daaf4610945029dc79a3ae1f:1791833494</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Summer.Custom Lanyard">be66122847af4610f66f97bf016d439c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-19 04:21:35</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>04e9158bc5a5476085aaa0f663344e64</sys_id>
+        <sys_metadata>b56312e047af4610f66f97bf016d4309</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Summer.Custom Lanyard</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_b56312e047af4610f66f97bf016d4309</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_b56312e047af4610f66f97bf016d4309">5f6352e047af4610f66f97bf016d4320</sys_update_version>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-19 04:21:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="DELETE">
+        <default>true</default>
+        <sc_catalog display_value="Pens">5564f7d7470f4210f66f97bf016d4314</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-03 03:44:17</sys_created_on>
+        <sys_id>5874331b470f4210f66f97bf016d437d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pens.catalog_pens</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_pens">50747bd7470f4210f66f97bf016d431a</sys_portal_page>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_5874331b470f4210f66f97bf016d437d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-03 03:44:17</sys_updated_on>
+    </sc_catalog_view_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>sc_catalog_view_mtom_5874331b470f4210f66f97bf016d437d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom"><sc_catalog_view_mtom action="INSERT_OR_UPDATE"><default>true</default><sc_catalog display_value="Pens">5564f7d7470f4210f66f97bf016d4314</sc_catalog><sys_class_name>sc_catalog_view_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-03 03:44:17</sys_created_on><sys_id>5874331b470f4210f66f97bf016d437d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Pens.catalog_pens</sys_name><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_portal_page display_value="catalog_pens">50747bd7470f4210f66f97bf016d431a</sys_portal_page><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>sc_catalog_view_mtom_5874331b470f4210f66f97bf016d437d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-03 03:44:17</sys_updated_on></sc_catalog_view_mtom></record_update>]]></payload>
+        <payload_hash>-857306038</payload_hash>
+        <record_name>Pens.catalog_pens</record_name>
+        <reverted_from/>
+        <source>d5e0617447030210f66f97bf016d43c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-03 03:44:17</sys_created_on>
+        <sys_id>9874331b470f4210f66f97bf016d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19076b16bdb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-03 03:44:17</sys_updated_on>
+        <type>Catalog Portal Page</type>
+        <update_guid>9c74331bce0f421044f28a01d443807e</update_guid>
+        <update_guid_history>9c74331bce0f421044f28a01d443807e:-857306038</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Pens.catalog_pens">6cb4166447af4610f66f97bf016d4334</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 04:14:03</sys_created_on>
+        <sys_db_object display_value="" name="sc_catalog_view_mtom">sc_catalog_view_mtom</sys_db_object>
+        <sys_id>419abb53a7e4444295ecd2314a2018e1</sys_id>
+        <sys_metadata>5874331b470f4210f66f97bf016d437d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pens.catalog_pens</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>sc_catalog_view_mtom_5874331b470f4210f66f97bf016d437d</sys_update_name>
+        <sys_update_version display_value="sc_catalog_view_mtom_5874331b470f4210f66f97bf016d437d">9874331b470f4210f66f97bf016d437f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 04:14:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

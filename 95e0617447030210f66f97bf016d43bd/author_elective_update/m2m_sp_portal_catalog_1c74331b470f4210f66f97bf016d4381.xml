@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog">
+    <m2m_sp_portal_catalog action="DELETE">
+        <active>true</active>
+        <order>100</order>
+        <sc_catalog display_value="Pens">5564f7d7470f4210f66f97bf016d4314</sc_catalog>
+        <sp_portal display_value="Creative Dreams">7851b753470f4210f66f97bf016d4347</sp_portal>
+        <sys_class_name>m2m_sp_portal_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-03 03:44:17</sys_created_on>
+        <sys_id>1c74331b470f4210f66f97bf016d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pens.Creative Dreams</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>m2m_sp_portal_catalog_1c74331b470f4210f66f97bf016d4381</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-03 03:44:17</sys_updated_on>
+    </m2m_sp_portal_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>m2m_sp_portal_catalog_1c74331b470f4210f66f97bf016d4381</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog"><m2m_sp_portal_catalog action="INSERT_OR_UPDATE"><active>true</active><order>100</order><sc_catalog display_value="Pens">5564f7d7470f4210f66f97bf016d4314</sc_catalog><sp_portal display_value="Creative Dreams">7851b753470f4210f66f97bf016d4347</sp_portal><sys_class_name>m2m_sp_portal_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-03 03:44:17</sys_created_on><sys_id>1c74331b470f4210f66f97bf016d4381</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Pens.Creative Dreams</sys_name><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>m2m_sp_portal_catalog_1c74331b470f4210f66f97bf016d4381</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-03 03:44:17</sys_updated_on></m2m_sp_portal_catalog></record_update>]]></payload>
+        <payload_hash>146748741</payload_hash>
+        <record_name>Pens.Creative Dreams</record_name>
+        <reverted_from/>
+        <source>d5e0617447030210f66f97bf016d43c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-03 03:44:17</sys_created_on>
+        <sys_id>1c74331b470f4210f66f97bf016d4383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19076b16c130000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-03 03:44:17</sys_updated_on>
+        <type>Portal Catalog</type>
+        <update_guid>1074331bcd0f421085fa824b061deb83</update_guid>
+        <update_guid_history>1074331bcd0f421085fa824b061deb83:146748741</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Pens.Creative Dreams">50b49a2447af4610f66f97bf016d43c1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 04:14:03</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_portal_catalog">m2m_sp_portal_catalog</sys_db_object>
+        <sys_id>66e93948499840f091ed4ed71b7f5100</sys_id>
+        <sys_metadata>1c74331b470f4210f66f97bf016d4381</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pens.Creative Dreams</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>m2m_sp_portal_catalog_1c74331b470f4210f66f97bf016d4381</sys_update_name>
+        <sys_update_version display_value="m2m_sp_portal_catalog_1c74331b470f4210f66f97bf016d4381">1c74331b470f4210f66f97bf016d4383</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 04:14:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

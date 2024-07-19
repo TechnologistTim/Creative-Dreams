@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Creative Dreams">bf0cfdf047c30210f66f97bf016d4353</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page display_value="All locations">ffee7e4ec0a8000c007a8387549d440f</map_page>
+        <mobile_title>$CMS</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query>https://dev199187.service-now.com/nav_to.do?uri=sp_portal.do?sys_id=c38f297047830210f66f97bf016d43c1</query>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-25 00:32:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3fcb39f047c30210f66f97bf016d43f5</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Creative Dreams Home ➚</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sys_app_module_3fcb39f047c30210f66f97bf016d43f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-03 03:16:03</sys_updated_on>
+        <timeline_page/>
+        <title>Creative Dreams Home ➚</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>sys_app_module_3fcb39f047c30210f66f97bf016d43f5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Creative Dreams">bf0cfdf047c30210f66f97bf016d4353</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page display_value="All locations">ffee7e4ec0a8000c007a8387549d440f</map_page><mobile_title>$CMS</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order/><override_menu_roles>false</override_menu_roles><query>https://dev199187.service-now.com/nav_to.do?uri=sp_portal.do?sys_id=c38f297047830210f66f97bf016d43c1</query><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-25 00:32:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3fcb39f047c30210f66f97bf016d43f5</sys_id><sys_mod_count>7</sys_mod_count><sys_name>Creative Dreams Home ➚</sys_name><sys_overrides/><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>sys_app_module_3fcb39f047c30210f66f97bf016d43f5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-03 03:16:03</sys_updated_on><timeline_page/><title>Creative Dreams Home ➚</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1417767676</payload_hash>
+        <record_name>Creative Dreams Home ➚</record_name>
+        <reverted_from/>
+        <source>d5e0617447030210f66f97bf016d43c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-03 03:16:03</sys_created_on>
+        <sys_id>f2fd2b5f47cb4210f66f97bf016d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190769793280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-03 03:16:03</sys_updated_on>
+        <type>Module</type>
+        <update_guid>bafd2b5f86cb4210d8dd537930b5ff80</update_guid>
+        <update_guid_history>bafd2b5f86cb4210d8dd537930b5ff80:1417767676,bd2debdb6fcb421015c15d37cd6aef12:-1711945600,2e0d631f7acb4210b255755e89d1cd5e:-1576687815,b9305025918f021017f23b56a02d2769:403967037,a0b500e1b84f0210c865d1327642b350:-1150874971,cce40861874f0210a840af74f727cd22:79856965,af2cb134f8c302105309728af433bb94:-890300842,88db39f048c3021035b7f4648fb6fbf8:-636992205</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Creative Dreams Home ➚">fe14b5e047eb4610f66f97bf016d43dc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 01:51:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>9c850e315fdb44709d3ce9563e400840</sys_id>
+        <sys_metadata>3fcb39f047c30210f66f97bf016d43f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Creative Dreams Home ➚</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>sys_app_module_3fcb39f047c30210f66f97bf016d43f5</sys_update_name>
+        <sys_update_version display_value="sys_app_module_3fcb39f047c30210f66f97bf016d43f5">f2fd2b5f47cb4210f66f97bf016d4381</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 01:51:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Custom Lanyard">d2e252a047af4610f66f97bf016d4396</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-19 04:08:25</sys_created_on>
+        <sys_id>866312e047af4610f66f97bf016d431a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom Lanyard.Users with 'Admin' Role</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_866312e047af4610f66f97bf016d431a</sys_update_name>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-19 04:08:25</sys_updated_on>
+        <user_criteria display_value="Users with 'Admin' Role">cb8e06e9d7103100f2d224837e610339</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_866312e047af4610f66f97bf016d431a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Custom Lanyard">d2e252a047af4610f66f97bf016d4396</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>tim.dingle</sys_created_by><sys_created_on>2024-07-19 04:08:25</sys_created_on><sys_id>866312e047af4610f66f97bf016d431a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Custom Lanyard.Users with 'Admin' Role</sys_name><sys_package/><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_866312e047af4610f66f97bf016d431a</sys_update_name><sys_updated_by>tim.dingle</sys_updated_by><sys_updated_on>2024-07-19 04:08:25</sys_updated_on><user_criteria display_value="Users with 'Admin' Role">cb8e06e9d7103100f2d224837e610339</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>291197991</payload_hash>
+        <record_name>Custom Lanyard.Users with 'Admin' Role</record_name>
+        <reverted_from/>
+        <source>db6312e047af4610f66f97bf016d43d0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-19 04:08:31</sys_created_on>
+        <sys_id>df6352e047af4610f66f97bf016d4305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190c92d5b600000001</sys_recorded_at>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-19 04:08:31</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>d36352e0b9af461053c84a48b6ca3f05</update_guid>
+        <update_guid_history>d36352e0b9af461053c84a48b6ca3f05:291197991,136312e044af46107a40553469f6e0f5:1834871637</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Custom Lanyard.Users with 'Admin' Role">8b66122847af4610f66f97bf016d43ce</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-19 04:21:36</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>793c0ae7ecad44b0ba94d5b2dee00de4</sys_id>
+        <sys_metadata>866312e047af4610f66f97bf016d431a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom Lanyard.Users with 'Admin' Role</sys_name>
+        <sys_package/>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_866312e047af4610f66f97bf016d431a</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_866312e047af4610f66f97bf016d431a">df6352e047af4610f66f97bf016d4305</sys_update_version>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-19 04:21:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
