@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Gnome badge reel">afef051c47efc210f66f97bf016d43d1</catalog_item>
+        <catalog_variable>IO:0c1f122847ef4610f66f97bf016d43ba</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>200</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 05:17:22</sys_created_on>
+        <sys_id>b3df63c783eb0a109cd8f796feaad31f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>bot_bead_size</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_b3df63c783eb0a109cd8f796feaad31f</sys_update_name>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 05:46:14</sys_updated_on>
+        <table/>
+        <ui_policy display_value="2 Beads">b7bf2b8783eb0a109cd8f796feaad30e</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>bot_bead_size</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=b3df63c783eb0a109cd8f796feaad31f"/>
+</record_update>

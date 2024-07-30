@@ -4,8 +4,8 @@
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
-        <category display_value="Spring">e41dccad474f0210f66f97bf016d436c</category>
-        <checked_out/>
+        <category display_value="Spring ">e41dccad474f0210f66f97bf016d436c</category>
+        <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
@@ -59,29 +59,29 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
-        <short_description>Chicken badge reel</short_description>
+        <short_description>Badge reel</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
-        <state/>
+        <state>published</state>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>tim.dingle</sys_created_by>
         <sys_created_on>2024-07-18 04:20:45</sys_created_on>
         <sys_id>c16cc95447efc210f66f97bf016d43b0</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Chicken badge reel</sys_name>
         <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
         <sys_update_name>sc_cat_item_c16cc95447efc210f66f97bf016d43b0</sys_update_name>
-        <sys_updated_by>tim.dingle</sys_updated_by>
-        <sys_updated_on>2024-07-18 05:38:23</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-30 05:17:35</sys_updated_on>
         <taxonomy_topic/>
-        <template/>
+        <template display_value="Badge reels">051545d847afc210f66f97bf016d4395</template>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>8</version>
+        <version>11</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
@@ -128,6 +128,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
+        <encryption_context/>
         <file_name>icon</file_name>
         <hash>1137dd0d7f4ca07840ded266e7cd432d466cf11452aba99312537242ba3e19c2</hash>
         <image_height>314</image_height>
@@ -167,6 +168,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
+        <encryption_context/>
         <file_name>picture</file_name>
         <hash>5e2e1252c5aaa83c00f86782314d178ba4dfd2d37ba9227cdcd2c4fc933e5ff2</hash>
         <image_height>934</image_height>

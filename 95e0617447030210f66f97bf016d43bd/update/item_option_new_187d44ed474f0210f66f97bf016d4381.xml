@@ -9,9 +9,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value>Top: &#13;
-Mid: &#13;
-Bottom: </default_value>
+        <default_value/>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -35,21 +33,21 @@ Bottom: </default_value>
         <lookup_label/>
         <lookup_price/>
         <lookup_table>sn_safe_program</lookup_table>
-        <lookup_unique>false</lookup_unique>
+        <lookup_unique>true</lookup_unique>
         <lookup_value>work_effort</lookup_value>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>true</mask_use_encryption>
-        <name>bead_size</name>
+        <name>top_bead_size</name>
         <order>300</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>What size beads?</question_text>
+        <question_text>Top bead size?</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -71,7 +69,7 @@ Bottom: </default_value>
 */]]></save_script>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
-        <show_help>true</show_help>
+        <show_help>false</show_help>
         <show_help_on_load>true</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
@@ -79,17 +77,17 @@ Bottom: </default_value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-27 00:26:44</sys_created_on>
         <sys_id>187d44ed474f0210f66f97bf016d4381</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>What size beads?</sys_name>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Top bead size?</sys_name>
         <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
         <sys_update_name>item_option_new_187d44ed474f0210f66f97bf016d4381</sys_update_name>
         <sys_updated_by>tim.dingle</sys_updated_by>
-        <sys_updated_on>2024-07-18 05:24:45</sys_updated_on>
+        <sys_updated_on>2024-07-27 04:48:17</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>2</type>
+        <type>5</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -97,7 +95,7 @@ Bottom: </default_value>
         <validate_regex/>
         <variable_name/>
         <variable_set display_value="Beads">5a5dc4ed474f0210f66f97bf016d436d</variable_set>
-        <variable_width/>
+        <variable_width>25</variable_width>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

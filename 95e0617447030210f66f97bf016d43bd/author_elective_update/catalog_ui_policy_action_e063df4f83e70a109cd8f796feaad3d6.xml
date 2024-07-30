@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item/>
+        <catalog_variable>IO:c21ede6447ef4610f66f97bf016d43d6</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>225</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 03:12:58</sys_created_on>
+        <sys_id>e063df4f83e70a109cd8f796feaad3d6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>mid_bead_size</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_e063df4f83e70a109cd8f796feaad3d6</sys_update_name>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 03:13:12</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Display size and color if beads are wanted">f98f09d847efc210f66f97bf016d43ce</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>mid_bead_size</variable>
+        <variable_set display_value="Beads">5a5dc4ed474f0210f66f97bf016d436d</variable_set>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=e063df4f83e70a109cd8f796feaad3d6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>catalog_ui_policy_action_e063df4f83e70a109cd8f796feaad3d6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item/><catalog_variable>IO:c21ede6447ef4610f66f97bf016d43d6</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><order>225</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>tim.dingle</sys_created_by><sys_created_on>2024-07-27 03:12:58</sys_created_on><sys_id>e063df4f83e70a109cd8f796feaad3d6</sys_id><sys_mod_count>1</sys_mod_count><sys_name>mid_bead_size</sys_name><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>catalog_ui_policy_action_e063df4f83e70a109cd8f796feaad3d6</sys_update_name><sys_updated_by>tim.dingle</sys_updated_by><sys_updated_on>2024-07-27 03:13:12</sys_updated_on><table/><ui_policy display_value="Display size and color if beads are wanted">f98f09d847efc210f66f97bf016d43ce</ui_policy><value/><value_action>ignore</value_action><variable>mid_bead_size</variable><variable_set display_value="Beads">5a5dc4ed474f0210f66f97bf016d436d</variable_set><visible>true</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=e063df4f83e70a109cd8f796feaad3d6"/></record_update>]]></payload>
+        <payload_hash>409031537</payload_hash>
+        <record_name>mid_bead_size</record_name>
+        <reverted_from/>
+        <source>40245fd84717c610f66f97bf016d43dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 03:13:12</sys_created_on>
+        <sys_id>c773938f83e70a109cd8f796feaad3ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190f22d96230000001</sys_recorded_at>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 03:13:12</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>4f73938fb1e70a10641ba273b2648dab</update_guid>
+        <update_guid_history>4f73938fb1e70a10641ba273b2648dab:409031537,e763138f7ee70a1061930b7dd237a9f1:735180277</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="mid_bead_size">7074e3cf836b0a109cd8f796feaad391</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 04:27:20</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>2fa0b2f7bd494646a8769701c5105844</sys_id>
+        <sys_metadata>e063df4f83e70a109cd8f796feaad3d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mid_bead_size</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_e063df4f83e70a109cd8f796feaad3d6</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_e063df4f83e70a109cd8f796feaad3d6">c773938f83e70a109cd8f796feaad3ac</sys_update_version>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 04:27:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script/>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>create_a_dashboard</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Create a dashboard</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-24 03:20:32</sys_created_on>
+        <sys_id>456877028363c2109cd8f796feaad35b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Create a dashboard</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sp_widget_456877028363c2109cd8f796feaad35b</sys_update_name>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-24 03:23:49</sys_updated_on>
+        <template><![CDATA[<!-- create-dashboard-widget.template.html -->
+
+<div ng-controller="CreateDashboardController">
+    <h3>Create a New Dashboard</h3>
+    <form ng-submit="createDashboard()">
+        <label for="dashboardName">Dashboard Name:</label>
+        <input type="text" id="dashboardName" ng-model="newDashboard.name" required />
+        <br />
+        <label for="dashboardDescription">Description:</label>
+        <textarea id="dashboardDescription" ng-model="newDashboard.description"></textarea>
+        <br />
+        <button type="submit">Create Dashboard</button>
+    </form>
+    <div ng-show="dashboardCreated">
+        <p>New dashboard "{{ newDashboard.name }}" created successfully!</p>
+        <!-- Optionally, display a link to the newly created dashboard -->
+    </div>
+    <div ng-show="errorCreatingDashboard">
+        <p>Error creating dashboard. Please try again.</p>
+        <!-- Optionally, display more detailed error information -->
+    </div>
+</div>]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>sp_widget_456877028363c2109cd8f796feaad35b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script/&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;create_a_dashboard&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;Create a dashboard&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tim.dingle&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-07-24 03:20:32&lt;/sys_created_on&gt;&lt;sys_id&gt;456877028363c2109cd8f796feaad35b&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Create a dashboard&lt;/sys_name&gt;&lt;sys_package display_value="Creative Dreams" source="x_1423006_creative"&gt;95e0617447030210f66f97bf016d43bd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Creative Dreams"&gt;95e0617447030210f66f97bf016d43bd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_456877028363c2109cd8f796feaad35b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;tim.dingle&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-07-24 03:23:49&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;!-- create-dashboard-widget.template.html --&gt;
+
+&lt;div ng-controller="CreateDashboardController"&gt;
+    &lt;h3&gt;Create a New Dashboard&lt;/h3&gt;
+    &lt;form ng-submit="createDashboard()"&gt;
+        &lt;label for="dashboardName"&gt;Dashboard Name:&lt;/label&gt;
+        &lt;input type="text" id="dashboardName" ng-model="newDashboard.name" required /&gt;
+        &lt;br /&gt;
+        &lt;label for="dashboardDescription"&gt;Description:&lt;/label&gt;
+        &lt;textarea id="dashboardDescription" ng-model="newDashboard.description"&gt;&lt;/textarea&gt;
+        &lt;br /&gt;
+        &lt;button type="submit"&gt;Create Dashboard&lt;/button&gt;
+    &lt;/form&gt;
+    &lt;div ng-show="dashboardCreated"&gt;
+        &lt;p&gt;New dashboard "{{ newDashboard.name }}" created successfully!&lt;/p&gt;
+        &lt;!-- Optionally, display a link to the newly created dashboard --&gt;
+    &lt;/div&gt;
+    &lt;div ng-show="errorCreatingDashboard"&gt;
+        &lt;p&gt;Error creating dashboard. Please try again.&lt;/p&gt;
+        &lt;!-- Optionally, display more detailed error information --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1562385851</payload_hash>
+        <record_name>Create a dashboard</record_name>
+        <reverted_from/>
+        <source>40245fd84717c610f66f97bf016d43dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-24 03:23:49</sys_created_on>
+        <sys_id>dd29b3428363c2109cd8f796feaad36c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190e2c43b150000001</sys_recorded_at>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-24 03:23:49</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>5529b342f663c2103498f6d6352e426c</update_guid>
+        <update_guid_history>5529b342f663c2103498f6d6352e426c:1562385851,95883f024563c210bad86ed94d39c526:1832692137,116877029e63c210c72490fbe3c75d5e:1220293249</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create a dashboard">4c7affc28363c2109cd8f796feaad340</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-24 03:29:28</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>03ebb0b08e2e408894c7d24f9de5a6c4</sys_id>
+        <sys_metadata>456877028363c2109cd8f796feaad35b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create a dashboard</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>sp_widget_456877028363c2109cd8f796feaad35b</sys_update_name>
+        <sys_update_version display_value="sp_widget_456877028363c2109cd8f796feaad35b">dd29b3428363c2109cd8f796feaad36c</sys_update_version>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-24 03:29:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Middle bead size?">c21ede6447ef4610f66f97bf016d43d6</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-19 04:55:57</sys_created_on>
+        <sys_id>e23e966447ef4610f66f97bf016d4335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Small</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>question_choice_e23e966447ef4610f66f97bf016d4335</sys_update_name>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-19 04:55:57</sys_updated_on>
+        <text>Small</text>
+        <value>Small</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=e23e966447ef4610f66f97bf016d4335"/>
+</record_update>

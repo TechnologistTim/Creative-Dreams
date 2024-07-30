@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Scream">ef5d695c47a30610f66f97bf016d4344</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-18 06:45:56</sys_created_on>
+        <sys_id>63dde99c47a30610f66f97bf016d435b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Scream.SNC External</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_63dde99c47a30610f66f97bf016d435b</sys_update_name>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-18 06:45:56</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_63dde99c47a30610f66f97bf016d435b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Scream">ef5d695c47a30610f66f97bf016d4344</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>tim.dingle</sys_created_by><sys_created_on>2024-07-18 06:45:56</sys_created_on><sys_id>63dde99c47a30610f66f97bf016d435b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Scream.SNC External</sys_name><sys_package/><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_63dde99c47a30610f66f97bf016d435b</sys_update_name><sys_updated_by>tim.dingle</sys_updated_by><sys_updated_on>2024-07-18 06:45:56</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>-147761158</payload_hash>
+        <record_name>Scream.SNC External</record_name>
+        <reverted_from/>
+        <source>b0ede99c47a30610f66f97bf016d43c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-18 06:46:01</sys_created_on>
+        <sys_id>bced2d9c47a30610f66f97bf016d4315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190c49731660000001</sys_recorded_at>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-18 06:46:01</sys_updated_on>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>b0ed2d9c77a30610df38a06b9cdf7c15</update_guid>
+        <update_guid_history>b0ed2d9c77a30610df38a06b9cdf7c15:-147761158,bcede99c76a30610f38788dda71da2c6:-606118277</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Scream.SNC External">72e5db83832b0a109cd8f796feaad3ec</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 03:23:50</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>101ef70509ba4a6595efd1de9217af31</sys_id>
+        <sys_metadata>63dde99c47a30610f66f97bf016d435b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Scream.SNC External</sys_name>
+        <sys_package/>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_63dde99c47a30610f66f97bf016d435b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_63dde99c47a30610f66f97bf016d435b">bced2d9c47a30610f66f97bf016d4315</sys_update_version>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 03:23:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

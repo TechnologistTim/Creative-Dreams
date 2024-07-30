@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Bead size">1c3e2bc383eb0a109cd8f796feaad3e8</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 05:11:01</sys_created_on>
+        <sys_id>735eefc383eb0a109cd8f796feaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Choose one</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>question_choice_735eefc383eb0a109cd8f796feaad3ad</sys_update_name>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 05:11:01</sys_updated_on>
+        <text>Choose one</text>
+        <value>Choose one</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=735eefc383eb0a109cd8f796feaad3ad"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>735eefc383eb0a109cd8f796feaad3ad</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 05:11:01</sys_created_on>
+        <sys_id>fc7e630783eb0a109cd8f796feaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 05:11:01</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>735eefc383eb0a109cd8f796feaad3ad</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 05:11:01</sys_created_on>
+        <sys_id>b47e630783eb0a109cd8f796feaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 05:11:01</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>question_choice_735eefc383eb0a109cd8f796feaad3ad</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>100</order><published_ref/><question display_value="Bead size">1c3e2bc383eb0a109cd8f796feaad3e8</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>tim.dingle</sys_created_by><sys_created_on>2024-07-27 05:11:01</sys_created_on><sys_id>735eefc383eb0a109cd8f796feaad3ad</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Choose one</sys_name><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>question_choice_735eefc383eb0a109cd8f796feaad3ad</sys_update_name><sys_updated_by>tim.dingle</sys_updated_by><sys_updated_on>2024-07-27 05:11:01</sys_updated_on><text>Choose one</text><value>Choose one</value></question_choice><fx_price action="delete_multiple" query="id=735eefc383eb0a109cd8f796feaad3ad"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>735eefc383eb0a109cd8f796feaad3ad</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>tim.dingle</sys_created_by><sys_created_on>2024-07-27 05:11:01</sys_created_on><sys_id>fc7e630783eb0a109cd8f796feaad357</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tim.dingle</sys_updated_by><sys_updated_on>2024-07-27 05:11:01</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>735eefc383eb0a109cd8f796feaad3ad</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>tim.dingle</sys_created_by><sys_created_on>2024-07-27 05:11:01</sys_created_on><sys_id>b47e630783eb0a109cd8f796feaad357</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tim.dingle</sys_updated_by><sys_updated_on>2024-07-27 05:11:01</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-271016921</payload_hash>
+        <record_name>Choose one</record_name>
+        <reverted_from/>
+        <source>40245fd84717c610f66f97bf016d43dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 05:11:01</sys_created_on>
+        <sys_id>747e630783eb0a109cd8f796feaad35a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190f29975670000001</sys_recorded_at>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 05:11:01</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>787e6307a3eb0a1024e3468f4c9c5859</update_guid>
+        <update_guid_history>787e6307a3eb0a1024e3468f4c9c5859:-271016921</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Choose one">517fbf0b836f0a109cd8f796feaad337</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 06:25:19</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>47424f9ff86d42d49da6933aa84e0ef1</sys_id>
+        <sys_metadata>735eefc383eb0a109cd8f796feaad3ad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Choose one</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent display_value="Bead size?">1c3e2bc383eb0a109cd8f796feaad3e8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>question_choice_735eefc383eb0a109cd8f796feaad3ad</sys_update_name>
+        <sys_update_version display_value="question_choice_735eefc383eb0a109cd8f796feaad3ad">747e630783eb0a109cd8f796feaad35a</sys_update_version>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 06:25:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

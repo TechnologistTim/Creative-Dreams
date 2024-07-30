@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Bead size?">45f9770f832f0a109cd8f796feaad3ce</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 06:02:30</sys_created_on>
+        <sys_id>511a3b0f832f0a109cd8f796feaad3e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Choose one</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>question_choice_511a3b0f832f0a109cd8f796feaad3e7</sys_update_name>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 06:02:30</sys_updated_on>
+        <text>Choose one</text>
+        <value>Choose one</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=511a3b0f832f0a109cd8f796feaad3e7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>question_choice_511a3b0f832f0a109cd8f796feaad3e7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Bead size?">45f9770f832f0a109cd8f796feaad3ce</question><sys_class_name>question_choice</sys_class_name><sys_created_by>tim.dingle</sys_created_by><sys_created_on>2024-07-27 06:02:30</sys_created_on><sys_id>511a3b0f832f0a109cd8f796feaad3e7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Choose one</sys_name><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>question_choice_511a3b0f832f0a109cd8f796feaad3e7</sys_update_name><sys_updated_by>tim.dingle</sys_updated_by><sys_updated_on>2024-07-27 06:02:30</sys_updated_on><text>Choose one</text><value>Choose one</value></question_choice><fx_price action="delete_multiple" query="id=511a3b0f832f0a109cd8f796feaad3e7"/></record_update>]]></payload>
+        <payload_hash>803401653</payload_hash>
+        <record_name>Choose one</record_name>
+        <reverted_from/>
+        <source>40245fd84717c610f66f97bf016d43dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 06:02:30</sys_created_on>
+        <sys_id>433abb0f832f0a109cd8f796feaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190f2c896780000001</sys_recorded_at>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 06:02:30</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>473abb0f102f0a10aaca67046392c6cc</update_guid>
+        <update_guid_history>473abb0f102f0a10aaca67046392c6cc:803401653</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Choose one">463dfbc3836f0a109cd8f796feaad3d6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 06:15:32</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>e304aa41e21f4fe1afc99562986bfd81</sys_id>
+        <sys_metadata>511a3b0f832f0a109cd8f796feaad3e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Choose one</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>question_choice_511a3b0f832f0a109cd8f796feaad3e7</sys_update_name>
+        <sys_update_version display_value="question_choice_511a3b0f832f0a109cd8f796feaad3e7">433abb0f832f0a109cd8f796feaad3cd</sys_update_version>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 06:15:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

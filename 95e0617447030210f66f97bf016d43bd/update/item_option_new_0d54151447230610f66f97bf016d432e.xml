@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
-        <attributes>1, 2, 3</attributes>
+        <attributes/>
         <cat_item/>
         <category/>
         <choice_direction>down</choice_direction>
@@ -9,7 +9,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value>1</default_value>
+        <default_value/>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -33,11 +33,11 @@
         <lookup_label/>
         <lookup_price/>
         <lookup_table/>
-        <lookup_unique>false</lookup_unique>
+        <lookup_unique>true</lookup_unique>
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
@@ -77,17 +77,17 @@
         <sys_created_by>tim.dingle</sys_created_by>
         <sys_created_on>2024-07-18 04:55:54</sys_created_on>
         <sys_id>0d54151447230610f66f97bf016d432e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>How many?</sys_name>
         <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
         <sys_update_name>item_option_new_0d54151447230610f66f97bf016d432e</sys_update_name>
         <sys_updated_by>tim.dingle</sys_updated_by>
-        <sys_updated_on>2024-07-18 05:05:45</sys_updated_on>
+        <sys_updated_on>2024-07-27 05:05:14</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>3</type>
+        <type>5</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -95,7 +95,7 @@
         <validate_regex/>
         <variable_name/>
         <variable_set display_value="Beads">5a5dc4ed474f0210f66f97bf016d436d</variable_set>
-        <variable_width/>
+        <variable_width>25</variable_width>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

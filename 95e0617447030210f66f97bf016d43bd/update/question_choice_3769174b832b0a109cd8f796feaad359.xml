@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>400</order>
+        <published_ref/>
+        <question display_value="Top color?">6f69d34b832b0a109cd8f796feaad397</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 03:39:12</sys_created_on>
+        <sys_id>3769174b832b0a109cd8f796feaad359</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Vintage Rose</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>question_choice_3769174b832b0a109cd8f796feaad359</sys_update_name>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 06:35:48</sys_updated_on>
+        <text>Vintage Rose</text>
+        <value>Vintage Rose</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=3769174b832b0a109cd8f796feaad359"/>
+</record_update>

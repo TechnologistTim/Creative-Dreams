@@ -13,17 +13,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-27 00:25:29</sys_created_on>
         <sys_id>5a5dc4ed474f0210f66f97bf016d436d</sys_id>
-        <sys_mod_count>56</sys_mod_count>
+        <sys_mod_count>237</sys_mod_count>
         <sys_name>Beads</sys_name>
         <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
         <sys_update_name>item_option_new_set_5a5dc4ed474f0210f66f97bf016d436d</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-18 05:36:20</sys_updated_on>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 06:48:25</sys_updated_on>
         <title>Beads</title>
         <type>one_to_one</type>
-        <version>56</version>
+        <version>237</version>
         <write_roles/>
     </item_option_new_set>
 </record_update>

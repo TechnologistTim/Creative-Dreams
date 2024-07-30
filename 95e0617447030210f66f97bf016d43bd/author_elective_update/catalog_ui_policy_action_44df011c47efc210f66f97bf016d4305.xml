@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item/>
+        <catalog_variable>IO:37cdcced474f0210f66f97bf016d4314</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>300</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-18 04:34:43</sys_created_on>
+        <sys_id>44df011c47efc210f66f97bf016d4305</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>mid_color</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_44df011c47efc210f66f97bf016d4305</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-27 03:33:08</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Display size and color if beads are wanted">f98f09d847efc210f66f97bf016d43ce</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>mid_color</variable>
+        <variable_set display_value="Beads">5a5dc4ed474f0210f66f97bf016d436d</variable_set>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=44df011c47efc210f66f97bf016d4305"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>catalog_ui_policy_action_44df011c47efc210f66f97bf016d4305</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item/><catalog_variable>IO:37cdcced474f0210f66f97bf016d4314</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><order>300</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>tim.dingle</sys_created_by><sys_created_on>2024-07-18 04:34:43</sys_created_on><sys_id>44df011c47efc210f66f97bf016d4305</sys_id><sys_mod_count>5</sys_mod_count><sys_name>mid_color</sys_name><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>catalog_ui_policy_action_44df011c47efc210f66f97bf016d4305</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-07-27 03:33:08</sys_updated_on><table/><ui_policy display_value="Display size and color if beads are wanted">f98f09d847efc210f66f97bf016d43ce</ui_policy><value/><value_action>ignore</value_action><variable>mid_color</variable><variable_set display_value="Beads">5a5dc4ed474f0210f66f97bf016d436d</variable_set><visible>true</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=44df011c47efc210f66f97bf016d4305"/></record_update>]]></payload>
+        <payload_hash>781825839</payload_hash>
+        <record_name>mid_color</record_name>
+        <reverted_from/>
+        <source>40245fd84717c610f66f97bf016d43dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-07-27 03:33:08</sys_created_on>
+        <sys_id>03085b87832b0a109cd8f796feaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190f23fd5b60000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-27 03:33:08</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>87085b87e42b0a1099c1c8b7290df551</update_guid>
+        <update_guid_history>87085b87e42b0a1099c1c8b7290df551:781825839,43d451544b230610a1f7f7547fe850cc:553209743,d14355908d230610cbb9108465439304:-1705161872,ef331590cb230610c7a2bdb5ded92eae:331433809,ea3315905c230610ffc80762eed12a27:-1732543155,e9df011ce8efc2106d082f02bc35028b:1270031369</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="mid_color">3874e3cf836b0a109cd8f796feaad36e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-07-27 04:27:19</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>601a1853098f45b2a443664b87872004</sys_id>
+        <sys_metadata>44df011c47efc210f66f97bf016d4305</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mid_color</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_44df011c47efc210f66f97bf016d4305</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_44df011c47efc210f66f97bf016d4305">03085b87832b0a109cd8f796feaad352</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-27 04:27:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

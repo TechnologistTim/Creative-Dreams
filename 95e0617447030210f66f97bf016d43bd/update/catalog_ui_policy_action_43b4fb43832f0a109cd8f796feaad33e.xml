@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Gnome badge reel">afef051c47efc210f66f97bf016d43d1</catalog_item>
+        <catalog_variable>IO:de779b47832b0a109cd8f796feaad3cc</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>900</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 05:38:39</sys_created_on>
+        <sys_id>43b4fb43832f0a109cd8f796feaad33e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>which_colors</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_43b4fb43832f0a109cd8f796feaad33e</sys_update_name>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 05:39:44</sys_updated_on>
+        <table/>
+        <ui_policy display_value="3 Beads">2460ff8783eb0a109cd8f796feaad3e6</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>which_colors</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=43b4fb43832f0a109cd8f796feaad33e"/>
+</record_update>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Gnome badge reel">afef051c47efc210f66f97bf016d43d1</catalog_item>
+        <catalog_variable>IO:6f69d34b832b0a109cd8f796feaad397</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 04:22:12</sys_created_on>
+        <sys_id>28436b0f836b0a109cd8f796feaad35a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>top_color</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_28436b0f836b0a109cd8f796feaad35a</sys_update_name>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 05:21:23</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Display bead and color info">86202f47836b0a109cd8f796feaad3b5</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>top_color</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=28436b0f836b0a109cd8f796feaad35a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>catalog_ui_policy_action_28436b0f836b0a109cd8f796feaad35a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Gnome badge reel">afef051c47efc210f66f97bf016d43d1</catalog_item><catalog_variable>IO:6f69d34b832b0a109cd8f796feaad397</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>tim.dingle</sys_created_by><sys_created_on>2024-07-27 04:22:12</sys_created_on><sys_id>28436b0f836b0a109cd8f796feaad35a</sys_id><sys_mod_count>4</sys_mod_count><sys_name>top_color</sys_name><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>catalog_ui_policy_action_28436b0f836b0a109cd8f796feaad35a</sys_update_name><sys_updated_by>tim.dingle</sys_updated_by><sys_updated_on>2024-07-27 05:21:23</sys_updated_on><table/><ui_policy display_value="Display bead and color info">86202f47836b0a109cd8f796feaad3b5</ui_policy><value/><value_action>ignore</value_action><variable>top_color</variable><variable_set/><visible>false</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=28436b0f836b0a109cd8f796feaad35a"/></record_update>]]></payload>
+        <payload_hash>1481492274</payload_hash>
+        <record_name>top_color</record_name>
+        <reverted_from/>
+        <source>40245fd84717c610f66f97bf016d43dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 05:21:23</sys_created_on>
+        <sys_id>78d0ff0b83eb0a109cd8f796feaad326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190f2a2f3980000001</sys_recorded_at>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 05:21:23</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>fcd0ff0bd9eb0a101bc5e9cfad7e5125</update_guid>
+        <update_guid_history>fcd0ff0bd9eb0a101bc5e9cfad7e5125:1481492274,88507fc73aeb0a10ecd68f60aa977ec4:438053046,e1052b0388ab0a100e412900b6a61841:-1498371287,3173234f596b0a102a2298f6ce76624b:752045357,31436b0f206b0a102c1fd3a7668bc094:2004989609</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="top_color">0b1a881383ef0a109cd8f796feaad36f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 07:11:52</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>7e5d541990834e2c9050ed7699253144</sys_id>
+        <sys_metadata>28436b0f836b0a109cd8f796feaad35a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>top_color</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_28436b0f836b0a109cd8f796feaad35a</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_28436b0f836b0a109cd8f796feaad35a">78d0ff0b83eb0a109cd8f796feaad326</sys_update_version>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 07:11:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

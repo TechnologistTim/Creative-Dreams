@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">f5476b4683ef82109cd8f796feaad3f6</sp_column>
+        <sp_widget display_value="Portal Catalog Quick Links">10ff1e164336a110e41679539ab8f258</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-24 02:11:12</sys_created_on>
+        <sys_id>698867c683ef82109cd8f796feaad38e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sp_instance_698867c683ef82109cd8f796feaad38e</sys_update_name>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-24 02:11:55</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"widget_title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"table": {
+		"value": "sc_cat_item",
+		"displayValue": "sc_cat_item"
+	},
+	"display_catalog_items": {
+		"value": "Dynamic query",
+		"displayValue": "Dynamic query"
+	},
+	"manually_select_catalog_items": {
+		"value": ""
+	},
+	"dynamic_query": {
+		"value": "",
+		"displayValue": ""
+	},
+	"sort_by": {
+		"value": "",
+		"displayValue": ""
+	},
+	"sort_order": {
+		"value": "a to z",
+		"displayValue": "a to z"
+	},
+	"show_carousel": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"max_quicklinks_to_display": {
+		"value": null,
+		"displayValue": ""
+	},
+	"card_display_style": {
+		"value": "Title & description only",
+		"displayValue": "Title & description only"
+	},
+	"catalog_item_page": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=698867c683ef82109cd8f796feaad38e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>sp_instance_698867c683ef82109cd8f796feaad38e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;f5476b4683ef82109cd8f796feaad3f6&lt;/sp_column&gt;&lt;sp_widget display_value="Portal Catalog Quick Links"&gt;10ff1e164336a110e41679539ab8f258&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tim.dingle&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-07-24 02:11:12&lt;/sys_created_on&gt;&lt;sys_id&gt;698867c683ef82109cd8f796feaad38e&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Creative Dreams" source="x_1423006_creative"&gt;95e0617447030210f66f97bf016d43bd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Creative Dreams"&gt;95e0617447030210f66f97bf016d43bd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_698867c683ef82109cd8f796feaad38e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;tim.dingle&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-07-24 02:11:55&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"widget_title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"table": {
+		"value": "sc_cat_item",
+		"displayValue": "sc_cat_item"
+	},
+	"display_catalog_items": {
+		"value": "Dynamic query",
+		"displayValue": "Dynamic query"
+	},
+	"manually_select_catalog_items": {
+		"value": ""
+	},
+	"dynamic_query": {
+		"value": "",
+		"displayValue": ""
+	},
+	"sort_by": {
+		"value": "",
+		"displayValue": ""
+	},
+	"sort_order": {
+		"value": "a to z",
+		"displayValue": "a to z"
+	},
+	"show_carousel": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"max_quicklinks_to_display": {
+		"value": null,
+		"displayValue": ""
+	},
+	"card_display_style": {
+		"value": "Title &amp; description only",
+		"displayValue": "Title &amp; description only"
+	},
+	"catalog_item_page": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=698867c683ef82109cd8f796feaad38e"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2027631165</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>40245fd84717c610f66f97bf016d43dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-24 02:11:55</sys_created_on>
+        <sys_id>00b8abc683ef82109cd8f796feaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190e28266600000001</sys_recorded_at>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-24 02:11:55</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>84b8abc6c6ef821087b177a71869955a</update_guid>
+        <update_guid_history>84b8abc6c6ef821087b177a71869955a:-2027631165,2698e7064def82101fcb90854de06982:1918244978,a58867c63eef8210c7946bf1da31cd90:-2062183666</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">fcc82bc683ef82109cd8f796feaad32f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-24 02:12:14</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>00d76c1dec1642d08cd62e89c708a640</sys_id>
+        <sys_metadata>698867c683ef82109cd8f796feaad38e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>sp_instance_698867c683ef82109cd8f796feaad38e</sys_update_name>
+        <sys_update_version display_value="sp_instance_698867c683ef82109cd8f796feaad38e">00b8abc683ef82109cd8f796feaad35b</sys_update_version>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-24 02:12:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

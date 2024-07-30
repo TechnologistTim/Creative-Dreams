@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Scream">ef5d695c47a30610f66f97bf016d4344</sc_cat_item>
+        <sc_catalog display_value="Creative Dreams">ce40b9b047830210f66f97bf016d4339</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 03:23:48</sys_created_on>
+        <sys_id>52e5db83832b0a109cd8f796feaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Creative Dreams.Scream</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_52e5db83832b0a109cd8f796feaad38c</sys_update_name>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 03:23:48</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>sc_cat_item_catalog_52e5db83832b0a109cd8f796feaad38c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Scream">ef5d695c47a30610f66f97bf016d4344</sc_cat_item><sc_catalog display_value="Creative Dreams">ce40b9b047830210f66f97bf016d4339</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>tim.dingle</sys_created_by><sys_created_on>2024-07-27 03:23:48</sys_created_on><sys_id>52e5db83832b0a109cd8f796feaad38c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Creative Dreams.Scream</sys_name><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>sc_cat_item_catalog_52e5db83832b0a109cd8f796feaad38c</sys_update_name><sys_updated_by>tim.dingle</sys_updated_by><sys_updated_on>2024-07-27 03:23:48</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-970532413</payload_hash>
+        <record_name>Creative Dreams.Scream</record_name>
+        <reverted_from/>
+        <source>40245fd84717c610f66f97bf016d43dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 03:23:48</sys_created_on>
+        <sys_id>dee5db83832b0a109cd8f796feaad38f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190f2374d2f0000001</sys_recorded_at>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 03:23:48</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>d2e5db83ce2b0a100a4dcc75e492548f</update_guid>
+        <update_guid_history>d2e5db83ce2b0a100a4dcc75e492548f:-970532413</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Creative Dreams.Scream">b6e51f83832b0a109cd8f796feaad309</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 03:23:50</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>0d2b67d6e28b41569fb48ffd7f8ada41</sys_id>
+        <sys_metadata>52e5db83832b0a109cd8f796feaad38c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Creative Dreams.Scream</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_52e5db83832b0a109cd8f796feaad38c</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_52e5db83832b0a109cd8f796feaad38c">dee5db83832b0a109cd8f796feaad38f</sys_update_version>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 03:23:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -11,13 +11,13 @@
         <icon>c0813b93470f4210f66f97bf016d43f8</icon>
         <kb_knowledge_base/>
         <kb_knowledge_page/>
-        <login_page/>
+        <login_page display_value="cd_login">54e079f047830210f66f97bf016d4337</login_page>
         <logo/>
         <notfound_page/>
         <quick_start_config/>
         <rtl_enabled>false</rtl_enabled>
         <sc_catalog/>
-        <sc_catalog_page/>
+        <sc_catalog_page display_value="sc_home">fe87a11147132100ba13a5554ee490b9</sc_catalog_page>
         <sc_category_page/>
         <search_application/>
         <search_results_configuration/>
@@ -27,15 +27,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-03 03:31:13</sys_created_on>
         <sys_id>7851b753470f4210f66f97bf016d4347</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Creative Dreams</sys_name>
         <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
         <sys_update_name>sp_portal_7851b753470f4210f66f97bf016d4347</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 03:33:48</sys_updated_on>
-        <theme/>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-24 03:06:51</sys_updated_on>
+        <theme display_value="Creative Dreams">dbd1717447830210f66f97bf016d4313</theme>
         <title>Creative Dreams</title>
         <ts_index_group/>
         <url_suffix>home</url_suffix>
@@ -46,6 +46,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
+        <encryption_context/>
         <file_name>icon</file_name>
         <hash>f77cfa65de52f49ae44f966c3a4c75983944dabe444abedafb2d9e76ec179daa</hash>
         <image_height>922</image_height>

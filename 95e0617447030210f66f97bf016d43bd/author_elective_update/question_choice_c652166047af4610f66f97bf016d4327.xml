@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Which topper">7ae1d6ec476f4610f66f97bf016d431f</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-19 04:04:04</sys_created_on>
+        <sys_id>c652166047af4610f66f97bf016d4327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cowboys Jersey</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>question_choice_c652166047af4610f66f97bf016d4327</sys_update_name>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-19 04:04:04</sys_updated_on>
+        <text>Cowboys Jersey</text>
+        <value/>
+    </question_choice>
+    <fx_price action="DELETE" query="id=c652166047af4610f66f97bf016d4327"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>question_choice_c652166047af4610f66f97bf016d4327</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Which topper">7ae1d6ec476f4610f66f97bf016d431f</question><sys_class_name>question_choice</sys_class_name><sys_created_by>tim.dingle</sys_created_by><sys_created_on>2024-07-19 04:04:04</sys_created_on><sys_id>c652166047af4610f66f97bf016d4327</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cowboys Jersey</sys_name><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>question_choice_c652166047af4610f66f97bf016d4327</sys_update_name><sys_updated_by>tim.dingle</sys_updated_by><sys_updated_on>2024-07-19 04:04:04</sys_updated_on><text>Cowboys Jersey</text><value/></question_choice><fx_price action="delete_multiple" query="id=c652166047af4610f66f97bf016d4327"/></record_update>]]></payload>
+        <payload_hash>-239697642</payload_hash>
+        <record_name>Cowboys Jersey</record_name>
+        <reverted_from/>
+        <source>40245fd84717c610f66f97bf016d43dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-19 04:04:04</sys_created_on>
+        <sys_id>9662d66047af4610f66f97bf016d4309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190c92949540000001</sys_recorded_at>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-19 04:04:04</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>9a62d66083af4610201dec2b3370a108</update_guid>
+        <update_guid_history>9a62d66083af4610201dec2b3370a108:-239697642</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Cowboys Jersey">a5ab926047ef4610f66f97bf016d4362</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-19 04:44:26</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>52dff90fac7f4baeaa2350b11dc439b9</sys_id>
+        <sys_metadata>c652166047af4610f66f97bf016d4327</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cowboys Jersey</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent display_value="Which topper">7ae1d6ec476f4610f66f97bf016d431f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>question_choice_c652166047af4610f66f97bf016d4327</sys_update_name>
+        <sys_update_version display_value="question_choice_c652166047af4610f66f97bf016d4327">9662d66047af4610f66f97bf016d4309</sys_update_version>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-19 04:44:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
