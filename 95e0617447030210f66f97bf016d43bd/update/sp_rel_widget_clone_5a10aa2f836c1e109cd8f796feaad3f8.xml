@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="Copy of Announcements">5e106a2f836c1e109cd8f796feaad3ec</child>
+        <cloned>2024-09-16 05:48:26</cloned>
+        <last_validated>2024-09-16 05:48:26</last_validated>
+        <parent display_value="Announcements">94c300c7e777320075c2a117c2f6a9e7</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;other&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function($scope, $timeout, $location, spAnnouncement, spUtil, spAriaUtil) {
+  var c = this;
+
+	c.wid = 'spw-announcements-' + new Date().getTime();
+	c.accessibilityOff = spAriaUtil.g_accessibility === 'false';
+	c.announcements = [];
+	c.totalAnnouncements = 0;
+
+	c.toggleDetails = function(announcement) {
+		announcement.expanded = !announcement.expanded;
+	};
+
+	c.isViewAllPage = function() {
+		return $location.search().id === c.options.view_all_page;
+	};
+
+	c.getNumArray = function(number) {
+		return new Array(number);
+	};
+
+	c.getPageInfo = function() {
+		var limit = parseInt(c.options.max_records, 10);
+		var offset = (c.currentPage - 1) * limit;
+		var end = offset + limit;
+
+		return spUtil.format(c.data.rowsMessage, {
+			'0': offset + 1,
+			'1': end &lt; c.totalRecords ? end : c.totalRecords,
+			'2': c.totalRecords
+		});
+	};
+
+	c.goToPage = function(page, firstLoad) {
+		var result = spAnnouncement.get(spAnnouncement.filterOnType(c.options.type), c.options.max_records, page);
+
+		c.currentPage = page;
+		c.totalPages = result.totalPages;
+		c.totalRecords = result.totalRecords;
+
+		c.announcements = result.data;
+		c.totalAnnouncements = result.data.length;
+		
+		c.announcements.forEach(function(a) {
+			a.canExpand = a.summary || a.targetLinkText;
+			a.expanded = false;
+		});
+
+		$(document).ready(function() {
+			if (!firstLoad)
+				setFocus();
+		});
+	};
+
+	c.linkSetup = function(a) {
+    a.linkTarget = '_self';
+
+    if ('urlNew' === a.clickTarget) {
+      a.linkTarget = '_blank';
+    }
+
+    a.linkType = !a.targetLink ? 'none' : a.targetLinkText ? 'normal' : 'title';
+  };
+	
+	c.getDisplayStyle = function(announcement) {
+		return announcement.displayStyle || {
+			backgroundColor: '#006ed5',
+			foregroundColor: '#ffffff',
+			alignment: 'LEFT'
+		};
+	};
+
+	function setFocus() {
+		var ul = $('.' + c.wid).find('ul');
+
+		if (!ul.length) {
+			$timeout(setFocus);
+			return;
+		}
+
+		$timeout(function() {
+			ul.first().focus();
+		}, 20);
+	}
+
+	c.goToPage(1, true);
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;@mixin transition($transition...) {
+  -webkit-transition: $transition;
+  -moz-transition:    $transition;
+  -o-transition:      $transition;
+  transition:         $transition;
+}
+
+@mixin transform($transform...) {
+  -webkit-transform: $transform;
+  -moz-transform:    $transform;
+  -o-transform:      $transform;
+  transform:         $transform;
+}
+
+.spw-announcements-root {
+  p {
+    margin: 0;
+  }
+
+  li {
+    display: flex;
+    overflow: hidden;
+  }
+
+  h3.panel-title {
+    span {
+      margin-right: 2px;
+    }
+  }
+
+  .details {
+    width: 100%;
+    div.title {
+      display: flex;
+      width: 100%;
+      div, a {
+        width: 100%;
+        flex-grow: 1;
+        color: $primary;
+        overflow: hidden;
+        @include transition(max-height 0.1s ease-out);
+      }
+      a {
+        &amp;amp;:hover {
+          color: #023363;
+        }
+      }
+      &amp;amp;.expanded {
+	      div, a {
+	        display: block;
+	        display: -webkit-box;
+	        -webkit-box-orient: vertical;
+	        overflow: hidden;
+	        text-overflow: ellipsis;
+	        -webkit-line-clamp: 2;
+	      }
+	  }
+    }
+
+    p {
+     	max-height: 0;
+      overflow: hidden;
+      @include transition(max-height 0.1s ease-out);
+    }
+
+    a.info-link {
+      display: none;
+    }
+  }
+
+  .glyphicon {
+    cursor: pointer;
+    visibility: hidden;
+    height: 14px;
+    margin-left: 10px;
+    @include transition(transform 0.10s ease-out);
+  }
+
+  .can-expand {
+    .glyphicon {
+      visibility: visible;
+    }
+  }
+
+  li.expanded {
+    max-height: 1500px;
+
+    .glyphicon {
+      @include transform(rotate(-180deg));
+      @include transition(transform 0.10s ease-in);
+    }
+
+    .details {
+
+      a.info-link {
+        display: inline-block;
+      }
+
+      p {
+        margin: 7.5px 0;
+        max-height: 1000px;
+        @include transition(max-height 0.50s ease-in);
+      }
+
+      div.title {
+        div, a {
+          max-height: 500px;
+          @include transition(max-height 0.15s ease-in);
+        }
+      }
+    }
+  }
+
+  .no-margin {
+    margin-top: 0 !important;
+  }
+
+  .panel-footer {
+    a {
+      color: inherit;
+    }
+
+    a.push-margin {
+      margin-top: 6px;
+    }
+  }
+}
+&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;true&lt;/has_preview&gt;&lt;id&gt;announcements&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;Announcements&lt;/name&gt;&lt;option_schema&gt;[{"hint":"Text to display in header","name":"title","section":"Presentation","default_value":"","label":"Title","type":"string"},{"hint":"Image to display in header","name":"glyph","section":"Presentation","default_value":"bullhorn","label":"Glyph","type":"glyphicon"},{"displayValue":"Announcement Consumer Type","hint":"Display all announcement types when no types selected or select specific ones","name":"type","display_value_list":[],"section":"Data","default_value":"67eaf134e7a3320075c2a117c2f6a9d2","label":"Type","type":"glide_list","value":"announcement_consumer_type","ed":{"reference":"announcement_consumer_type"}},{"hint":"Display pagination controls when number of records returned is greater than 'Max Records' value","name":"paginate","section":"Behavior","default_value":"true","label":"Paginate","type":"boolean"},{"hint":"Maximum number of records to display per page","name":"max_records","section":"Behavior","default_value":"","label":"Max Records","type":"integer"},{"displayValue":"Page","hint":"Location to navigate when all records cannot be viewed on a single page","name":"view_all_page","section":"Behavior","default_value":"","label":"View All Page","type":"reference","value":"sp_page","ed":{"reference":"sp_page"}},{"hint":"Display announcement using its individual style. Consider how this may appear when there are many different styles.","name":"use_display_style","section":"Presentation","label":"Use Display Style","type":"boolean"}]&lt;/option_schema&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+    if (options.title)
+        options.title = gs.getMessage('{0}', options.title);
+    else
+        options.title = gs.getMessage('Announcements');
+	options.max_records = options.max_records ? options.max_records : 20;
+	options.paginate = options.paginate === 'true' &amp;&amp; options.max_records;
+	options.use_display_style = options.use_display_style === 'true';
+	data.rowsMessage = gs.getMessage('Rows {0} - {1} of {2}');
+
+	if (options.view_all_page) {
+		var gr = $sp.getPageRecord(options.view_all_page, null);
+		options.view_all_page = gr.getValue('id');
+	}
+
+	if (options.type) {
+		var types = [];
+		var typeIds = options.type.split(',');
+		var typesMap = $sp.getAnnouncementConsumerType(typeIds);
+
+		typeIds.forEach(function(typeId){
+		 types.push(typesMap.get(typeId));
+		});
+
+		options.type = types.join(',');
+	}
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-01-11 00:37:18&lt;/sys_created_on&gt;&lt;sys_id&gt;94c300c7e777320075c2a117c2f6a9e7&lt;/sys_id&gt;&lt;sys_mod_count&gt;519&lt;/sys_mod_count&gt;&lt;sys_name&gt;Announcements&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal Announcements" source="com.glide.service-portal.announcements"&gt;8711b1968df0021087de63ac7f1f00ea&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_94c300c7e777320075c2a117c2f6a9e7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-22 09:00:22&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div ng-class="['panel', 'panel-{{::c.options.color}}', 'b', 'spw-announcements-root', '{{::c.wid}}', {'accessibility-off': c.accessibilityOff}]"&gt;
+  &lt;div class="panel-heading"&gt;
+    &lt;h3 class="h4 panel-title"&gt;&lt;span ng-if="c.options.glyph"&gt;&lt;fa class="flip-icon-rtl m-r-sm" name="{{::c.options.glyph}}"&gt;&lt;/fa&gt;&lt;/span&gt;{{::c.options.title}}&lt;/h3&gt;
+  &lt;/div&gt;
+  &lt;ul ng-if="::(c.totalAnnouncements &gt; 0)" class="list-group" style="max-height: none; overflow-y: auto;"&gt;
+    &lt;li ng-class="['list-group-item', {'can-expand': a.canExpand, expanded: a.expanded}, cssId]" ng-repeat="a in c.announcements" ng-init="::(cssId = 'announcement-' + a.id + '-' + c.wid)"&gt;
+      &lt;style ng-if="::c.options.use_display_style" ng-init="::(ds = c.getDisplayStyle(a))"&gt;
+        li.{{::cssId}} {
+          background-color: {{::ds.backgroundColor}};
+          text-align: {{::ds.alignment.toLowerCase()}};
+        }
+        
+        li.{{::cssId}},
+        li.{{::cssId}} .details div.title div,
+        li.{{::cssId}} .details div.title a,
+        li.{{::cssId}} .details a.info-link {
+          color: {{::ds.foregroundColor}} !important;
+        }
+        
+        li.{{::cssId}} .details p {
+          font-weight: 100;
+        }
+        
+        li.{{::cssId}}:hover .details div.title a,
+        li.{{::cssId}} .details a.info-link {
+          text-decoration: underline;
+        }
+      &lt;/style&gt;
+      &lt;div class="details" ng-init="c.linkSetup(a)"&gt;
+        
+        &lt;div ng-if="a.canExpand" class="title" ng-class="{'expanded': !a.expanded}" data-aid="{{::a.id}}" ng-click="c.toggleDetails(a)" tabindex="0" role="button" aria-expanded="{{a.expanded}}" ng-attr-aria-controls="{{a.canExpand ? c.wid+'-'+a.id+'-summary' : undefined}}"&gt;
+          &lt;div ng-if="a.linkType !== 'title'" ng-bind="::a.title" id="{{::c.wid}}-{{::a.id}}-title"&gt;&lt;/div&gt;
+        	&lt;a ng-if="a.linkType === 'title'" ng-bind="::a.title" ng-href="{{::a.targetLink}}" target="{{::a.linkTarget}}" id="{{::c.wid}}-{{::a.id}}-title" tabindex="0"&gt;&lt;/a&gt;
+          &lt;span ng-if="a.canExpand" class="glyphicon glyphicon-menu-down" role="button" aria-label="{{a.expanded ? '${Hide details}' : '${Show details}'}}"&gt;&lt;/span&gt;
+        &lt;/div&gt;
+
+        &lt;div ng-if="!a.canExpand" class="title" data-aid="{{::a.id}}"&gt;
+          &lt;div ng-if="a.linkType !== 'title'" ng-bind="::a.title" id="{{::c.wid}}-{{::a.id}}-title"&gt;&lt;/div&gt;
+        	&lt;a ng-if="a.linkType === 'title'" ng-bind="::a.title" ng-href="{{::a.targetLink}}" target="{{::a.linkTarget}}" id="{{::c.wid}}-{{::a.id}}-title" tabindex="0"&gt;&lt;/a&gt;
+        &lt;/div&gt;
+
+        &lt;div ng-if="a.canExpand" id="{{::c.wid}}-{{::a.id}}-summary" aria-labelledby="{{::c.wid}}-{{::a.id}}-title" role="region" aria-hidden={{!a.expanded}}&gt;
+          &lt;p ng-if="::a.summary" ng-bind="::a.summary"&gt;&lt;/p&gt;
+          &lt;a class="info-link" ng-if="a.linkType === 'normal'" ng-bind="::a.targetLinkText" ng-href="{{::a.targetLink}}" target="{{a.linkTarget}}" aria-label="{{a.targetLinkText}}" tabindex="{{a.expanded ? 0 : -1}}"&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        
+      &lt;/div&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;div ng-if="::(c.totalAnnouncements === 0)" class="empty-state-content panel-body"&gt;
+    &lt;p&gt;${No information available}&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="panel-footer" ng-if="c.totalPages &gt; 1"&gt;
+    &lt;div ng-if="::c.options.paginate" class="btn-toolbar m-r pull-left"&gt;
+      &lt;div class="btn-group"&gt;
+        &lt;a ng-disabled="c.currentPage === 1" href="javascript:void(0)" ng-click="c.currentPage === 1 ? null : c.goToPage(c.currentPage - 1)" class="btn btn-default"  aria-label="${Previous page}" role="button"&gt;&lt;i class="fa fa-chevron-left flip-icon-rtl"&gt;&lt;/i&gt;&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div ng-if="c.totalPages &gt; 1 &amp;&amp; c.totalPages &lt; 3" class="btn-group"&gt;
+        &lt;a ng-repeat="i in c.getNumArray(c.totalPages) track by $index" ng-click="c.goToPage($index + 1)" href="javascript:void(0)" ng-class="{active: ($index + 1) === c.currentPage}" type="button" class="btn btn-default" aria-label="${Page} {{$index + 1}}" role="button"&gt;{{$index + 1}}&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class="btn-group"&gt;
+        &lt;a ng-disabled="c.currentPage === c.totalPages" href="javascript:void(0)" ng-click="c.currentPage === c.totalPages ? null : c.goToPage(c.currentPage + 1)" class="btn btn-default" aria-label="${Next page}" role="button"&gt;&lt;i class="fa fa-chevron-right flip-icon-rtl"&gt;&lt;/i&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div ng-if="::c.options.paginate" class="m-t-xs panel-title pull-left"&gt;{{c.getPageInfo()}}&lt;/div&gt;
+    &lt;div ng-if="::(!c.options.paginate)" class="m-t-xs panel-title pull-left no-margin"&gt;${First {{::c.totalAnnouncements}} of {{::c.totalRecords}}}&lt;/div&gt;
+    &lt;a ng-if="::(c.options.view_all_page &amp;&amp; !c.isViewAllPage())" ng-class="['pull-right', {'push-margin': c.options.paginate}]" ng-href="?id={{::c.options.view_all_page}}" role="link"&gt;${View all}&lt;/a&gt;
+    &lt;span class="clearfix"&gt;&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-16 05:48:26</sys_created_on>
+        <sys_id>5a10aa2f836c1e109cd8f796feaad3f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5e106a2f836c1e109cd8f796feaad3ec</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_5a10aa2f836c1e109cd8f796feaad3f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-16 05:48:26</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Chicken badge reel">c16cc95447efc210f66f97bf016d43b0</catalog_item>
+        <catalog_variable>IO:0e12409f836f0a109cd8f796feaad345</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>250</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 04:19:17</sys_created_on>
+        <sys_id>ea184896839992109cd8f796feaad31c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>middle_color</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_ea184896839992109cd8f796feaad31c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 04:19:17</sys_updated_on>
+        <table/>
+        <ui_policy display_value="3 beads">36a74456839992109cd8f796feaad320</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>middle_color</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=ea184896839992109cd8f796feaad31c"/>
+</record_update>

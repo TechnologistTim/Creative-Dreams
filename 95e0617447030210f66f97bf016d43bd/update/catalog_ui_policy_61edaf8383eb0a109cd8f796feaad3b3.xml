@@ -6,8 +6,8 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <catalog_conditions>IO:0d54151447230610f66f97bf016d432e=1^IO:dab1a74b836b0a109cd8f796feaad39a=true^EQ</catalog_conditions>
-        <catalog_item display_value="Gnome badge reel">afef051c47efc210f66f97bf016d43d1</catalog_item>
+        <catalog_conditions>IO:5f538d7583ad12109cd8f796feaad362=1^EQ</catalog_conditions>
+        <catalog_item display_value="Chicken badge reel">c16cc95447efc210f66f97bf016d43b0</catalog_item>
         <conditions/>
         <description/>
         <global>true</global>
@@ -15,7 +15,7 @@
         <isolate_script>true</isolate_script>
         <model_id/>
         <model_table/>
-        <on_load>true</on_load>
+        <on_load>false</on_load>
         <order>100</order>
         <published_ref/>
         <reverse_if_false>true</reverse_if_false>
@@ -34,15 +34,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>61edaf8383eb0a109cd8f796feaad3b3</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>1 Bead</sys_name>
         <sys_overrides/>
         <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
         <sys_update_name>catalog_ui_policy_61edaf8383eb0a109cd8f796feaad3b3</sys_update_name>
-        <sys_updated_by>tim.dingle</sys_updated_by>
-        <sys_updated_on>2024-07-27 07:03:46</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 05:50:22</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
         <va_supported>true</va_supported>

@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="Copy of CD Typeahead Search">f3dd126b836c1e109cd8f796feaad370</child>
+        <cloned>2024-09-16 05:35:35</cloned>
+        <last_validated>2024-09-16 05:35:35</last_validated>
+        <parent display_value="Typeahead Search">fa20ec02cb31020000f8d856634c9ce9</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function ($http, $filter, $location,spAriaUtil, $window, $scope, $rootScope, spAriaFocusManager, snAnalytics, spAISearchResults) {
+	var c = this;
+
+	// Code common for Zing and AI Search start
+	$scope.$on('$locationChangeSuccess', onLocationChangeSuccess);
+	function setSearchTerm(newUrl, oldUrl) {
+		try {
+			var oldQuery = new URL(oldUrl).searchParams.get("q");
+			var newQuery = new URL(newUrl).searchParams.get("q");
+			if (oldQuery === newQuery)
+				return;
+			if (c.data.aisEnabled)
+				c.data.q = newQuery;
+			else
+				c.searchTerm = newQuery;
+		} catch (e) {}
+	}
+
+	var regExpr = /[?&amp;](t=[^&amp;]+)/;
+
+	function onLocationChangeSuccess(event, newUrl, oldUrl) {
+		if (!c.data.aisEnabled &amp;&amp; c.searchSourceChanged(newUrl, oldUrl)) {
+			var newUrlParams = newUrl.match(regExpr);
+			if (!newUrlParams)
+				c.searchType = null;
+			else
+				c.searchType = newUrlParams[1].substring(2);
+		}
+		setSearchTerm(newUrl, oldUrl);
+	}
+	// Code common for Zing and AI Search end
+
+	if (c.data.aisEnabled)
+		intializeAISearch();
+	else
+		initializeZingSearch();
+
+	function intializeAISearch() {
+		// AI Search functions
+
+		c.aisSubmit = function(payload) {
+			var shouldReloadPage = c.data.refreshPageOnSearch &amp;&amp; $location.search().id === 'search';
+			if (payload.searchTerm) {
+				var newUrlObj = {
+					id: 'search',
+					spa: '1',
+					q: payload.searchTerm,
+					disableAllSuggestions: c.options.disable_all_suggestions &amp;&amp; c.options.disable_all_suggestions.toString(),
+					search_application: c.options.search_application || undefined,
+					search_results_configuration: c.options.search_results_configuration || undefined,
+					searchFilters : $location.search().searchFilters || c.data.aiSearchSourceFilter || undefined,
+					disableSpellCheck: 'false'
+				};
+
+				$rootScope.$applyAsync(function() {
+           			var navigateToUrl = $location.search(newUrlObj);
+				if (shouldReloadPage)
+					$scope.$emit("sp.page.reload");
+				spAriaFocusManager.navigateToLink(navigateToUrl.url());
+        		});  
+			}
+		}
+
+		c.navigate = spAISearchResults.navigate;
+
+	}
+
+
+	function initializeZingSearch() {
+	c.options.glyph = c.options.glyph || 'search';
+	c.options.title = c.options.title || c.data.searchMsg;
+	c.options.color = c.options.color || "default";
+	c.searchTerm = c.data.q;
+	c.searchQuery = "";
+	c.pageID = $scope.page &amp;&amp; $scope.page.id;
+	c.showSuggestions =  c.data.searchTypeBehavior === "suggestions" &amp;&amp; c.data.isSuggestionsEnabled === "true";
+	c.suggestionsLimit = c.options.limit || "";
+	c.latitude = null;
+	c.longitude = null;
+	c.isGlideSignalsLoaded = false;
+	c.isLocationTrackerDisabled = c.data.isLocationTrackerDisabled === "true";
+	c.isTypeAheadEnabled = c.data.isTypeAheadEnabled === "true";
+	
+	c.sendAnalytics = function(type){
+		var payload= {};
+		payload.name = "Initiate Search";
+		payload.data = {};
+		payload.data["Keyword"] = (type == 'User Entered' ? c.searchTerm : c.searchQuery);
+		payload.data["Type"] = type;
+		payload.data["Page ID"] = c.pageID;
+		snAnalytics.addEvent(payload);
+	};
+		if (c.isTypeAheadEnabled) {
+
+		if (window.GlideSignals)
+			initializeGlideSignals();
+		else {
+			$rootScope.$on("sp.defer_scripts.loaded", function(){
+				if (window.GlideSignals)
+					initializeGlideSignals();
+			});
+		}
+
+		if (!c.isLocationTrackerDisabled) {
+			setUserLocationCoords(function(coords) {
+				c.latitude = coords.latitude;
+				c.longitude = coords.longitude;
+			});
+		}
+		c.searchType = c.data.searchType;
+
+		// Zing Search functions
+	function initializeGlideSignals() {
+			if (!c.isLocationTrackerDisabled &amp;&amp; window.GlideSignals.init)
+			window.GlideSignals.init();
+
+			c.isGlideSignalsLoaded = window.GlideSignals.trackEvent || c.isGlideSignalsLoaded;
+		}
+
+	c.trackSuggestionsRenderedEvent = function(searchQueryLength, responseTimeInMilliSeconds){
+		if(c.isGlideSignalsLoaded)
+			GlideSignals.trackEvent('SEARCH_SUGGESTIONS_RENDERED', GlideSignals.priority.INFO,
+																	{'applicationId': c.data.portalID,
+																	 'searchQueryLength': searchQueryLength,
+																	 'totalSuggestionsCount': c.totalSuggestionsCount,
+																	 'userHistorySuggestionsCount' : c.userHistorySuggestionsCount,
+																	 'instanceHistorySuggestionsCount' : c.instanceHistorySuggestionsCount,
+																	 'responseTime': responseTimeInMilliSeconds+' ms'
+																	});
+	};
+
+	c.trackSearchClickedEvent = function(model){
+		if (!c.isGlideSignalsLoaded)
+			return;
+
+		if(c.showSuggestions) {
+			GlideSignals.trackEvent('SEARCH_SUGGESTION_CLICKED', GlideSignals.priority.INFO,
+																	{'applicationId': c.data.portalID,
+																	 'searchQueryLength' : c.searchQuery.length,
+																	 'suggestionClickedLength': model.name.length,
+																	 'totalSuggestionsCount': c.totalSuggestionsCount,
+																	 'suggestionClickedType': model.type,
+																	 'aggregatedClickIndex': getSearchItemIndex(c.searchItems, model),
+																	 'userHistorySuggestionsCount' : c.userHistorySuggestionsCount,
+																	 'instanceHistorySuggestionsCount' : c.instanceHistorySuggestionsCount,
+																	 'suggestionsDisplayLimit': c.suggestionsLimit,
+																	 'relativeClickIndex': getRelativeSearchItemIndex(c.searchItems, model)
+																	})
+		}
+		else {
+			GlideSignals.trackEvent('SEARCH_TYPEAHEAD_CLICKED', GlideSignals.priority.INFO,
+																	{'applicationId': c.data.portalID,
+																		'searchQueryLength' : c.searchQuery.length,
+																		'typeaheadClickedLength': model.name &amp;&amp; model.name.length,
+																		'resultSysId': model.sys_id,
+																		'clickIndex': model.query_location != null ? model.query_location : getSearchItemIndex(c.searchItems, model),
+																		'sourceId': model.type != null ? model.type : model.table,
+																		'typeaheadDisplayLimit': c.options.limit
+																	})
+	  }
+	}
+
+	c.onSelect = function($item, $model, $label) {
+		c.sendAnalytics(c.showSuggestions ? "Suggestions" : "Typeahead");
+		c.searchTerm = ""; // prevents unexpected result if user quickly clicks search button after selecting
+		if (c.showSuggestions)
+			$item.url = "?id=search&amp;spa=1&amp;q="+encodeURIComponent($item.name);
+
+		if(!$item.url || $item.url === "")
+			return;
+
+		if (!c.showSuggestions) {
+		    var index = $(".typeahead-popup li.active").data('index');
+		    c.trackSearchResultClicked(index + 1);
+		}
+
+		c.trackSearchClickedEvent($model);
+
+		if ($item.target)
+			window.open($item.url, $item.target);
+		else {
+			var newUrl = $location.url($item.url);
+			spAriaFocusManager.navigateToLink(newUrl.url());
+		}
+	};
+
+	function recordSuggestionsCount(){
+		c.instanceHistorySuggestionsCount = 0;
+		c.userHistorySuggestionsCount = 0;
+
+		c.searchItems.forEach(function(item){
+			var isInstanceHistory = item.type === 'INSTANCE_HISTORY';
+			c.instanceHistorySuggestionsCount += isInstanceHistory;
+			c.userHistorySuggestionsCount += !isInstanceHistory;
+		});
+	}
+
+	function getSearchItemIndex(items, targetItem) {
+		return (items || []).findIndex(function(item) {
+			return item.name === targetItem.name;
+		});
+	}
+
+	function getRelativeSearchItemIndex(items, targetItem) {
+		var groupedItems = (items || []).filter(function(item) {
+			return item.type === targetItem.type;
+		});
+
+		return getSearchItemIndex(groupedItems, targetItem);
+	}
+
+	c.getSearchSuggestions = function(query) {
+		c.searchQuery = query;
+		if ($location.search().q == c.searchQuery)
+				 return;
+
+		 var payload = {
+			 params: {
+				 "sysparm_term" : c.searchQuery,
+				 "sysparm_sp_portal_id": c.data.portalID,
+				 "sysparm_suggestions_limit": c.suggestionsLimit,
+				 "sysparm_search_sources": c.data.searchSourceSysIds || ""
+			 },
+			 headers : {'Accept' : 'application/json'}
+		 };
+
+		 var requestTimeStamp = new Date().getTime();
+		 return $http.get("/api/now/search/sp_suggestions", payload).then(function(response){
+			 var responseTimeStamp = new Date().getTime();
+			 var responseTimeInMilliSeconds = (responseTimeStamp  - requestTimeStamp);
+			 var result = response.data.result;
+
+			 c.totalSuggestionsCount = result != null ? result.entries.length : 0;
+			 if (c.totalSuggestionsCount &gt; 0)
+			    sendLiveMessage(c.totalSuggestionsCount);
+
+			 c.searchItems = result.entries.map(function(item) {
+				 item.query = getQueryToHighlight(item, c.searchQuery);
+				 item.glyph = getIcon(item.type);
+				 item.term = item.name;
+				 return item;
+			 });
+
+			 recordSuggestionsCount();
+			 c.trackSuggestionsRenderedEvent(query.length, responseTimeInMilliSeconds);
+			 return c.searchItems;
+		 });
+		};
+
+	function getSearchSources(results, c) {
+		var sources = {};
+		c.data.searchSources.map(function(key) {
+			sources[key] = 0;
+		});
+		results.forEach(function(item) {
+			if(sources[item.type])
+				sources[item.type]++;
+			else
+				sources[item.type] = 1;
+		});
+		var searchSources = [];
+		Object.keys(sources).map(function(key) {
+			var source_id = c.data.searchSourceConfiguration[key] ? c.data.searchSourceConfiguration[key].sys_id : key;
+			searchSources.push({
+				source_id: source_id,
+				number_of_results: sources[key]
+			});
+		});
+		return searchSources;
+	}
+
+	function getSearchResultsSignals(results, c) {
+		return results.map(function(item) {
+			return {
+				record_id: item.sys_id,
+				table_name: item.table
+			};
+		});
+	}
+
+	function setUserLocationCoords(cb) {
+		var onSuccess = function(pos) {
+			return cb({
+				latitude: pos.coords.latitude,
+				longitude: pos.coords.longitude
+			})
+		};
+
+		var onError = function() {
+			return cb({
+				latitude: null,
+				longitude: null
+			});
+		};
+
+		if (window.navigator.geolocation) {
+			window.navigator.geolocation.getCurrentPosition(onSuccess, onError, {
+				enableHighAccuracy: true
+			});
+		}
+	}
+
+
+	function getResultDescription(result){
+		return result.name || result.primary || result.sec_title;
+	}
+
+	c.trackSearchResultClicked = function(rank) {
+			if (!rank || rank &lt; 1) return ;
+		var query = c.latestQuery;
+		var results = _.get(c.data, 'results', []);
+		var result = results[rank-1];
+		var sourceTable = result.table || null;
+
+		var payloadObject = {
+			action: "GlideSPSearchAnalyticsUpdateRank",
+			payload: {
+				query: query,
+				portal_id: this.data.portalID,
+				page_id: this.pageID,
+				results_per_source: getSearchSources(results, this),
+				search_results: getSearchResultsSignals(results, this),
+				refinement_occurred: false,
+				signal_type: "CLICK",
+				signal_value: rank,
+				browser_info: $window.navigator.userAgent,
+				location: {
+					latitude: c.latitude,
+					longitude: c.longitude
+				},
+				result_event_sys_id : result.sys_id,
+				label_description : getResultDescription(result),
+				source_table: sourceTable
+			}
+		};
+
+		$window.spSearchAnalytics = {
+			query: query
+		};
+		c.server.get(payloadObject);
+	}
+
+	c.getResults = function(query) {
+	  c.searchQuery = query;
+		var payload = {
+			"query": c.searchQuery,
+			"portal": c.data.portalID,
+			"page": c.pageID,
+			"source": c.data.searchSources,
+			"include_facets": false,
+			"searchType": "typeahead"
+		};
+
+
+		if (c.options.limit || c.options.limit == 0)
+			payload.count = c.options.limit;
+
+		return $http.post("/api/now/sp/search?sysparm_cancelable=true", payload).then(function(response) {
+			// Prevents typeahead from displaying suggestions if queries from page and input are the same
+			if ($location.search().q == c.searchQuery)
+				return;
+
+			var result = response.data.result;
+			var resultCount = result != null ? result.results.length : 0
+			sendLiveMessage(resultCount);
+
+			c.data.results = result.results;
+			c.latestQuery = c.searchQuery;
+
+			c.searchItems = result.results.map(function(item) {
+				var config = c.data.searchSourceConfiguration[item.__search_source_id__];
+
+				if (!item.url &amp;&amp; config.linkToPage) {
+					item.url = "?id=" + config.linkToPage;
+					if (item.sys_id)
+						item.url += "&amp;sys_id=" + item.sys_id;
+					if (item.table)
+						item.url += "&amp;table=" + item.table
+				}
+
+				if (item.link)
+					item.url = item.link.indexOf('sys_attachment.do') != -1 ? item.link : config.linkToPage ? item.url : item.link;
+
+				if (config.type == "ADVANCED") {
+					item.templateID = config.template;
+				} else {
+					item.glyph = config.glyph;
+				}
+				return item;
+			});
+
+			if (c.searchItems.length == 0)
+			    c.searchItems = [{"primary": c.data.noResultsFoundMsg}];
+			return c.searchItems;
+		});
+	}
+}
+		c.searchSourceChanged = function(newUrl, oldUrl) {
+			var newUrlParams = newUrl.match(regExpr),
+			oldUrlParams = oldUrl.match(regExpr);
+
+		if(!newUrlParams &amp;&amp; !oldUrlParams) {
+			return false;
+		}
+
+		if((!newUrlParams &amp;&amp; oldUrlParams) || (newUrlParams &amp;&amp; !oldUrlParams)) {
+			return true;
+		}
+
+		return newUrlParams[1] !== oldUrlParams[1];
+	}
+
+	c.submitSearch = function() {
+		c.sendAnalytics("User Entered");
+		var shouldReloadPage = c.data.refreshPageOnSearch &amp;&amp; $location.search().id === 'search';
+
+		if (c.searchTerm) {
+			var newUrl = $location.search({
+				id: 'search',
+				spa: '1',
+				t: c.searchType,
+				q: c.searchTerm
+			});
+
+			if (shouldReloadPage)
+				$scope.$emit("sp.page.reload");
+
+			spAriaFocusManager.navigateToLink(newUrl.url());
+			//Pass the current page ID to search page for Search Analytics
+			$window.spSearchAnalytics = {
+					page_id: c.pageID
+			};
+		}
+	}
+
+	function sendLiveMessage(resultCount) {
+		spAriaUtil.sendLiveMessage(resultCount + " " +
+									c.data.resultMsg + " " +
+									(resultCount &gt; 0 ? ' ' + c.data.navigationMsg : ''));
+	}
+
+	function getIcon(itemType) {
+		return itemType === "INSTANCE_HISTORY" ? 'search' : 'clock-o';
+	}
+
+	function getQueryToHighlight(item, query) {
+		return item.type === "INSTANCE_HISTORY" ? item.name.substring(query.length) : query;
+	}
+	}
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;ul.dropdown-menu {&amp;#13;
+				min-width: 100%;&amp;#13;
+				max-height: 200px;
+				overflow-y: auto;
+				border-radius: 0px 0px 4px 4px;&amp;#13;
+				margin:0px;&amp;#13;
+				&amp;gt; li &amp;gt; a {&amp;#13;
+					white-space: normal;&amp;#13;
+				}&amp;#13;
+			}&amp;#13;
+			&amp;#13;
+			ul.dropdown-menu a.ta-item {&amp;#13;
+			line-height: 20px;&amp;#13;
+			}&amp;#13;
+			&amp;#13;
+			ul.dropdown-menu i.ta-icon, i.ta-img {&amp;#13;
+			width: 20px;&amp;#13;
+			height: 20px;&amp;#13;
+			background-size: contain;&amp;#13;
+			display: inline-block;&amp;#13;
+			background-repeat: no-repeat;&amp;#13;
+			background-position: center center;&amp;#13;
+			text-align: center;&amp;#13;
+			line-height: 20px;&amp;#13;
+			vertical-align: bottom;&amp;#13;
+			margin-right: 8px;&amp;#13;
+			}&amp;#13;
+			&amp;#13;
+			input[name="q"] {&amp;#13;
+			color: black;&amp;#13;
+			}&amp;#13;
+			&amp;#13;
+
+			.aisearch {
+			--classicsponlydonotuse--rem-multipy: 1.4;
+			}
+
+			button[name="search"]:focus {
+				outline: 2px solid $input-border-focus !important;
+				outline-offset: -4px !important;
+			}&lt;/css&gt;&lt;data_table&gt;sp_instance_ais&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list&gt;search_application,search_results_configuration,disable_all_suggestions,placeholder,ai_search_source_filter&lt;/field_list&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;typeahead-search&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function(scope, elem) {
+    var lazyLoader = $injector.get("lazyLoader");
+    var SEARCH_EXECUTED_EVENT = "SN_SEARCH_COMBOBOX#SEARCH_EXECUTED";
+    var NAVIGATION_EVENT = "SN_SEARCH_COMBOBOX#NAVIGATION_EXECUTED";
+
+    lazyLoader.putTemplates(scope.data.typeaheadTemplates);
+
+    if (scope.c.data.aisEnabled) {
+        elem.on(SEARCH_EXECUTED_EVENT, ".aisearch", function(result) {
+            scope.c.aisSubmit(result.detail.payload);
+        })
+
+
+        elem.on(NAVIGATION_EVENT, ".aisearch", function(result) {
+            var resultPayload = result.detail.payload;
+
+            var ga = new GlideAjax('SPSearchResultActions');
+            ga.addParam('sysparm_name', 'getSuggestionResultAction');
+            ga.addParam('sysparam_tableName', resultPayload.actionPayload.table);
+            ga.addParam('sysparam_sysId', resultPayload.actionPayload.sysId);
+            ga.addParam('sysparam_portalId', scope.c.data.portalId);
+            ga.getXML(callback);
+
+            function callback(response) {
+                var answer = response.responseXML.getElementsByTagName("answer");
+                resultPayload["actionDispatch"] = "NAVIGATION";
+                resultPayload["actionType"] = "uxf_client_action";
+                resultPayload["assignmentId"] = answer[0].getAttribute('actionId');
+                resultPayload.actionPayload["url"] = answer[0].getAttribute('actionUrl');
+
+                if (!resultPayload.actionPayload["url"] &amp;&amp; resultPayload.actionPayload["recordUrl"])
+                    resultPayload.actionPayload["url"] = resultPayload.actionPayload["recordUrl"];
+
+                scope.c.navigate(scope.c.data, resultPayload.actionPayload, resultPayload);
+            }
+        });
+    }
+}]]&gt;&lt;/link&gt;&lt;name&gt;Typeahead Search&lt;/name&gt;&lt;option_schema&gt;[{"name":"title","section":"Presentation","label":"Title","type":"string"},{"name":"color","section":"Presentation","label":"Color","type":"string"},{"name":"glyph","section":"Presentation","label":"glyph","type":"string"},{"name":"size","section":"Presentation","label":"Size","type":"string"},{"hint":"Number of typeahead search results returned (default 15)","name":"limit","section":"Behavior","label":"Limit","type":"integer"},{"displayValue":"Search Source","hint":"If provided, limit the scope of the typeahead search to the given search sources","name":"contextual_search_sources","display_value_list":[],"section":"Behavior","label":"Contextual Search Sources","type":"glide_list","value":"sp_search_source","ed":{"reference":"sp_search_source"}}]&lt;/option_schema&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles&gt;snc_external,snc_internal&lt;/roles&gt;&lt;script&gt;&lt;![CDATA[(function() {
+	var portalRecord = $sp.getPortalRecord();
+	data.aisEnabled = $sp.isAISearchEnabled();
+	data.q = $sp.getParameter('q');
+
+	if (options.refresh_page_on_search_submission == undefined)
+		data.refreshPageOnSearch = true;
+	else
+		data.refreshPageOnSearch = options.refresh_page_on_search_submission;
+
+	// AI Search
+	if (data.aisEnabled) {
+		data.searchApplicationId = options.search_application || portalRecord.getValue('search_application');
+		options.placeholder = options.placeholder ? gs.getMessage(options.placeholder) : gs.getMessage('Search');
+		data.aiSearchSourceFilter = "";
+		var aiSearchSource = options.ai_search_source_filter;
+		var filterGr = new GlideRecord('sys_search_filter');
+		data.exactMatchRegex = new GlideSystem().getProperty("com.snc.service_portal.typeahead.exact_match_request_criterion_regex")
+		filterGr.addQuery('ais_search_source', aiSearchSource);
+		filterGr.addQuery('search_context_config', data.searchApplicationId);
+		filterGr.addActiveQuery();
+		filterGr.orderBy('order');
+		filterGr.query();
+		if (filterGr.next())
+			data.aiSearchSourceFilter = filterGr.getUniqueValue();
+        var portalId = portalRecord &amp;&amp; portalRecord.getUniqueValue();
+        var resultMap = $sp.getAISearchResultsActionConfig(data.searchApplicationId, portalId);
+		resultMap = JSON.parse(resultMap);
+        data.tableToSourceMap = resultMap.tableToSourceMap;
+        data.sourceToPageMap = resultMap.sourceToPageMap;
+        data.urlMap = resultMap.urlMap;
+		data.portalId = portalId;
+		return;
+	}
+
+	if (input &amp;&amp; input.action === "GlideSPSearchAnalyticsUpdateRank") {
+		input.action = "";
+		var textSearchAnalytics = $sp.publishSearchAnalytics(JSON.stringify(input.payload));
+		return ;
+	}
+	if (options.title) {
+		options.title = gs.getMessage(options.title);
+	}
+
+	data.resultMsg = gs.getMessage("Search results.");
+	data.navigationMsg = gs.getMessage("To navigate, use up and down arrow keys.");
+	data.portalID = portalRecord &amp;&amp; portalRecord.getUniqueValue();
+	data.searchMsg = gs.getMessage("Search");
+	data.searchSuggestionsMsg = gs.getMessage("suggestions");
+
+	data.noResultsFoundMsg = gs.getMessage("No results found");
+
+	data.isSuggestionsEnabled = gs.getProperty('glide.search.suggestions.enabled');
+	data.searchTypeBehavior = gs.getProperty('glide.service_portal.search_as_you_type_behavior').toLowerCase();
+	data.typeaheadWaitMS = getIntProperty('glide.service_portal.typeahead.wait_ms', '1000');
+	data.typeaheadMinLength = getIntProperty('glide.service_portal.typeahead.min_length', '3');
+	data.isLocationTrackerDisabled = gs.getProperty('glide.service_portal.disable_location_tracker');
+	data.isTypeAheadEnabled = gs.getProperty('glide.service_portal.enable_typeahead', 'true');
+
+	var searchSources;
+	data.searchType = null;
+	data.searchSources = [];
+	if ($sp.getParameter("id") == "search" &amp;&amp; $sp.getParameter("t")) {
+		data.searchType = $sp.getParameter("t");
+		searchSources = $sp.getSearchSources(data.portalID);
+	} else {
+		var contextualSearchSourceIDs = options.contextual_search_sources || null;
+		searchSources = $sp.getSearchSources(data.portalID, contextualSearchSourceIDs);
+		if (searchSources.length == 1) {
+			data.searchType = searchSources[0].id;
+		}
+	}
+
+	data.searchSourceSysIds = [];
+	data.typeaheadTemplates = {};
+	data.searchSourceConfiguration = {};
+	searchSources.forEach(function(source) {
+		data.searchSourceSysIds.push(source.sys_id);
+		if (source.isTypeaheadEnabled) {
+			data.searchSources.push(source.id);
+		}
+		var sourceTemplateConfiguration = {
+			sys_id: source.sys_id,
+			glyph: source.typeaheadGlyph,
+			linkToPage: source.typeaheadPage
+		};
+
+		if (source.isAdvancedTypeaheadConfig) {
+			sourceTemplateConfiguration.type = "ADVANCED";
+			sourceTemplateConfiguration.template = "sp-typeahead-" + source.id + ".html";
+			data.typeaheadTemplates["sp-typeahead-" + source.id + ".html"] = $sp.translateTemplate(source.typeaheadTemplate);
+		} else {
+			sourceTemplateConfiguration.type = "SIMPLE";
+			if (!sourceTemplateConfiguration.linkToPage)
+			console.log("Warning: No typeahead page or URL provided for search source " + source.name);
+		}
+
+		data.searchSourceConfiguration[source.id] = sourceTemplateConfiguration;
+	});
+
+	function getIntProperty(name, defaultValue) {
+		var answer = parseInt(gs.getProperty(name, defaultValue));
+		return isNaN(answer) ? defaultValue : answer;
+	}
+
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-08-12 00:47:31&lt;/sys_created_on&gt;&lt;sys_id&gt;fa20ec02cb31020000f8d856634c9ce9&lt;/sys_id&gt;&lt;sys_mod_count&gt;1207&lt;/sys_mod_count&gt;&lt;sys_name&gt;Typeahead Search&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;b6f0f1568df0021087de63ac7f1f00c9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_fa20ec02cb31020000f8d856634c9ce9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-04 22:18:54&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;form  ng-if="!c.data.aisEnabled" ng-submit="c.submitSearch()" role="search"&gt;
+  &lt;input type="hidden" name="id" value="search"/&gt;
+  &lt;input type="hidden" name="t" value="{{c.searchType}}"/&gt;
+  &lt;div class="input-group input-group-{{::c.options.size}} input-group-typeahead" role="presentation"&gt;
+    &lt;!-- uses ui.bootstrap.typeahead --&gt;
+    &lt;input ng-if="c.isTypeAheadEnabled &amp;&amp; c.showSuggestions"
+           name="q" placeholder="{{::c.options.title}}" ng-model="c.searchTerm"
+           autocomplete="off"
+           uib-typeahead="item as item.term for item in c.getSearchSuggestions($viewValue)"
+           typeahead-wait-ms="c.data.typeaheadWaitMS"
+           typeahead-min-length="c.data.typeaheadMinLength"
+           typeahead-focus-first="false"
+           typeahead-on-select="c.onSelect($item, $model, $label)"
+           typeahead-template-url="sp-typeahead.html"
+           typeahead-popup-template-url="sp-typeahead-popup.html"
+           class="form-control input-typeahead"
+           role="combobox"
+           aria-autocomplete="list"
+           title="{{::c.options.title}}" data-toggle="tooltip" data-placement="bottom"
+           aria-label="{{::c.options.title}}" tabindex="0" aria-haspopup="listbox"&gt;
+    &lt;input ng-if="c.isTypeAheadEnabled &amp;&amp; !c.showSuggestions"
+           name="q" placeholder="{{::c.options.title}}" ng-model="c.searchTerm"
+           autocomplete="off"
+           uib-typeahead="item as item.primary for item in c.getResults($viewValue)"
+           typeahead-wait-ms="c.data.typeaheadWaitMS"
+           typeahead-min-length="c.data.typeaheadMinLength"
+           typeahead-focus-first="false"
+           typeahead-on-select="c.onSelect($item, $model, $label)"
+           typeahead-template-url="sp-typeahead.html"
+           typeahead-popup-template-url="sp-typeahead-popup.html"
+           class="form-control input-typeahead"
+           role="combobox"
+           aria-autocomplete="list"
+           title="{{::c.options.title}}" data-toggle="tooltip" data-placement="bottom"
+           aria-label="{{::c.options.title}}" tabindex="0" aria-haspopup="listbox"&gt;
+    &lt;input ng-if="!c.isTypeAheadEnabled"
+           name="q" type="text" placeholder="{{::c.options.title}}" ng-model="c.searchTerm"
+           autocomplete="off"
+           class="form-control"
+           role="listbox"
+           title="{{::c.options.title}}" data-toggle="tooltip" data-placement="bottom"
+           aria-label="{{::c.options.title}}" tabindex="0"&gt;
+    &lt;span class="input-group-btn"&gt;
+      &lt;button name="search" type="submit" class="btn btn-{{::c.options.color}}"
+              title="{{::c.data.searchMsg}}" aria-label="{{::c.data.searchMsg}}" data-toggle="tooltip" data-placement="bottom"&gt;
+    	&lt;i ng-if="::c.options.glyph" class="fa fa-{{::c.options.glyph}}"&gt;&lt;/i&gt;
+      &lt;/button&gt;
+    &lt;/span&gt;
+  &lt;/div&gt;
+&lt;/form&gt;
+&lt;div ng-if="c.data.aisEnabled"&gt;
+  &lt;sn-search-combobox class="aisearch" 
+      search-context-config-id="{{c.data.searchApplicationId}}"
+      placeholder="{{::c.options.placeholder}}" 
+      search-term="{{c.data.q}}" 
+      disable-autocomplete="{{c.options.disable_all_suggestions}}"
+      placement="header"
+      enable-exact-match=false
+      exact-match-regex="{{c.data.exactMatchRegex}}"&gt;
+  &lt;/sn-search-combobox&gt;
+
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-16 05:38:42</sys_created_on>
+        <sys_id>3fdd126b836c1e109cd8f796feaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f3dd126b836c1e109cd8f796feaad370</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_3fdd126b836c1e109cd8f796feaad373</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-16 05:38:42</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>

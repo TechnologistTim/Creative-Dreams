@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="display_image=photo,iterativeDelete=true,ref_ac_columns=email,ref_ac_columns_search=true,ref_ac_order_by=name,ref_auto_completer=AJAXTableCompleter" audit="true" db_object_id="f5031ef3470a0210f66f97bf016d43bb" label="Consumer" max_length="40" name="csm_consumer" text_index="true" type="collection">
+        <element label="Email" mandatory="true" max_length="40" name="x_1423006_creative_email" type="string"/>
+    </element>
+</database>

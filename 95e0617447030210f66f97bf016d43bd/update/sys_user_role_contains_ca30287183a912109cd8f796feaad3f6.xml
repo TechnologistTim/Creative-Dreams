@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="analytics_task_admin" name="analytics_task_admin">0b027d795bdf1010f8f93eaa3d81c72a</contains>
+        <role display_value="x_1423006_creative.CD_admin" name="x_1423006_creative.CD_admin">c0df8c71832912109cd8f796feaad35f</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 03:03:09</sys_created_on>
+        <sys_id>ca30287183a912109cd8f796feaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>analytics_task_admin.x_1423006_creative.CD_admin</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sys_user_role_contains_ca30287183a912109cd8f796feaad3f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 03:03:09</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

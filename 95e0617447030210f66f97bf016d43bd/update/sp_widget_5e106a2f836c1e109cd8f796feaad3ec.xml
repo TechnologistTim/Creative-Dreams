@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>other</category>
+        <client_script><![CDATA[function($scope, $timeout, $location, spAnnouncement, spUtil, spAriaUtil) {
+  var c = this;
+
+	c.wid = 'spw-announcements-' + new Date().getTime();
+	c.accessibilityOff = spAriaUtil.g_accessibility === 'false';
+	c.announcements = [];
+	c.totalAnnouncements = 0;
+
+	c.toggleDetails = function(announcement) {
+		announcement.expanded = !announcement.expanded;
+	};
+
+	c.isViewAllPage = function() {
+		return $location.search().id === c.options.view_all_page;
+	};
+
+	c.getNumArray = function(number) {
+		return new Array(number);
+	};
+
+	c.getPageInfo = function() {
+		var limit = parseInt(c.options.max_records, 10);
+		var offset = (c.currentPage - 1) * limit;
+		var end = offset + limit;
+
+		return spUtil.format(c.data.rowsMessage, {
+			'0': offset + 1,
+			'1': end < c.totalRecords ? end : c.totalRecords,
+			'2': c.totalRecords
+		});
+	};
+
+	c.goToPage = function(page, firstLoad) {
+		var result = spAnnouncement.get(spAnnouncement.filterOnType(c.options.type), c.options.max_records, page);
+
+		c.currentPage = page;
+		c.totalPages = result.totalPages;
+		c.totalRecords = result.totalRecords;
+
+		c.announcements = result.data;
+		c.totalAnnouncements = result.data.length;
+		
+		c.announcements.forEach(function(a) {
+			a.canExpand = a.summary || a.targetLinkText;
+			a.expanded = false;
+		});
+
+		$(document).ready(function() {
+			if (!firstLoad)
+				setFocus();
+		});
+	};
+
+	c.linkSetup = function(a) {
+    a.linkTarget = '_self';
+
+    if ('urlNew' === a.clickTarget) {
+      a.linkTarget = '_blank';
+    }
+
+    a.linkType = !a.targetLink ? 'none' : a.targetLinkText ? 'normal' : 'title';
+  };
+	
+	c.getDisplayStyle = function(announcement) {
+		return announcement.displayStyle || {
+			backgroundColor: '#006ed5',
+			foregroundColor: '#ffffff',
+			alignment: 'LEFT'
+		};
+	};
+
+	function setFocus() {
+		var ul = $('.' + c.wid).find('ul');
+
+		if (!ul.length) {
+			$timeout(setFocus);
+			return;
+		}
+
+		$timeout(function() {
+			ul.first().focus();
+		}, 20);
+	}
+
+	c.goToPage(1, true);
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>@mixin transition($transition...) {
+  -webkit-transition: $transition;
+  -moz-transition:    $transition;
+  -o-transition:      $transition;
+  transition:         $transition;
+}
+
+@mixin transform($transform...) {
+  -webkit-transform: $transform;
+  -moz-transform:    $transform;
+  -o-transform:      $transform;
+  transform:         $transform;
+}
+
+.spw-announcements-root {
+  p {
+    margin: 0;
+  }
+
+  li {
+    display: flex;
+    overflow: hidden;
+  }
+
+  h3.panel-title {
+    span {
+      margin-right: 2px;
+    }
+  }
+
+  .details {
+    width: 100%;
+    div.title {
+      display: flex;
+      width: 100%;
+      div, a {
+        width: 100%;
+        flex-grow: 1;
+        color: $primary;
+        overflow: hidden;
+        @include transition(max-height 0.1s ease-out);
+      }
+      a {
+        &amp;:hover {
+          color: #023363;
+        }
+      }
+      &amp;.expanded {
+	      div, a {
+	        display: block;
+	        display: -webkit-box;
+	        -webkit-box-orient: vertical;
+	        overflow: hidden;
+	        text-overflow: ellipsis;
+	        -webkit-line-clamp: 2;
+	      }
+	  }
+    }
+
+    p {
+     	max-height: 0;
+      overflow: hidden;
+      @include transition(max-height 0.1s ease-out);
+    }
+
+    a.info-link {
+      display: none;
+    }
+  }
+
+  .glyphicon {
+    cursor: pointer;
+    visibility: hidden;
+    height: 14px;
+    margin-left: 10px;
+    @include transition(transform 0.10s ease-out);
+  }
+
+  .can-expand {
+    .glyphicon {
+      visibility: visible;
+    }
+  }
+
+  li.expanded {
+    max-height: 1500px;
+
+    .glyphicon {
+      @include transform(rotate(-180deg));
+      @include transition(transform 0.10s ease-in);
+    }
+
+    .details {
+
+      a.info-link {
+        display: inline-block;
+      }
+
+      p {
+        margin: 7.5px 0;
+        max-height: 1000px;
+        @include transition(max-height 0.50s ease-in);
+      }
+
+      div.title {
+        div, a {
+          max-height: 500px;
+          @include transition(max-height 0.15s ease-in);
+        }
+      }
+    }
+  }
+
+  .no-margin {
+    margin-top: 0 !important;
+  }
+
+  .panel-footer {
+    a {
+      color: inherit;
+    }
+
+    a.push-margin {
+      margin-top: 6px;
+    }
+  }
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Copy of Announcements</name>
+        <option_schema>[{"hint":"Text to display in header","name":"title","section":"Presentation","default_value":"","label":"Title","type":"string"},{"hint":"Image to display in header","name":"glyph","section":"Presentation","default_value":"bullhorn","label":"Glyph","type":"glyphicon"},{"displayValue":"Announcement Consumer Type","hint":"Display all announcement types when no types selected or select specific ones","name":"type","display_value_list":[],"section":"Data","default_value":"67eaf134e7a3320075c2a117c2f6a9d2","label":"Type","type":"glide_list","value":"announcement_consumer_type","ed":{"reference":"announcement_consumer_type"}},{"hint":"Display pagination controls when number of records returned is greater than 'Max Records' value","name":"paginate","section":"Behavior","default_value":"true","label":"Paginate","type":"boolean"},{"hint":"Maximum number of records to display per page","name":"max_records","section":"Behavior","default_value":"","label":"Max Records","type":"integer"},{"displayValue":"Page","hint":"Location to navigate when all records cannot be viewed on a single page","name":"view_all_page","section":"Behavior","default_value":"","label":"View All Page","type":"reference","value":"sp_page","ed":{"reference":"sp_page"}},{"hint":"Display announcement using its individual style. Consider how this may appear when there are many different styles.","name":"use_display_style","section":"Presentation","label":"Use Display Style","type":"boolean"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    if (options.title)
+        options.title = gs.getMessage('{0}', options.title);
+    else
+        options.title = gs.getMessage('Announcements');
+	options.max_records = options.max_records ? options.max_records : 20;
+	options.paginate = options.paginate === 'true' && options.max_records;
+	options.use_display_style = options.use_display_style === 'true';
+	data.rowsMessage = gs.getMessage('Rows {0} - {1} of {2}');
+
+	if (options.view_all_page) {
+		var gr = $sp.getPageRecord(options.view_all_page, null);
+		options.view_all_page = gr.getValue('id');
+	}
+
+	if (options.type) {
+		var types = [];
+		var typeIds = options.type.split(',');
+		var typesMap = $sp.getAnnouncementConsumerType(typeIds);
+
+		typeIds.forEach(function(typeId){
+		 types.push(typesMap.get(typeId));
+		});
+
+		options.type = types.join(',');
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-16 05:48:26</sys_created_on>
+        <sys_id>5e106a2f836c1e109cd8f796feaad3ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Announcements</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sp_widget_5e106a2f836c1e109cd8f796feaad3ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-16 05:48:26</sys_updated_on>
+        <template><![CDATA[<div ng-class="['panel', 'panel-{{::c.options.color}}', 'b', 'spw-announcements-root', '{{::c.wid}}', {'accessibility-off': c.accessibilityOff}]">
+  <div class="panel-heading">
+    <h3 class="h4 panel-title"><span ng-if="c.options.glyph"><fa class="flip-icon-rtl m-r-sm" name="{{::c.options.glyph}}"></fa></span>{{::c.options.title}}</h3>
+  </div>
+  <ul ng-if="::(c.totalAnnouncements > 0)" class="list-group" style="max-height: none; overflow-y: auto;">
+    <li ng-class="['list-group-item', {'can-expand': a.canExpand, expanded: a.expanded}, cssId]" ng-repeat="a in c.announcements" ng-init="::(cssId = 'announcement-' + a.id + '-' + c.wid)">
+      <style ng-if="::c.options.use_display_style" ng-init="::(ds = c.getDisplayStyle(a))">
+        li.{{::cssId}} {
+          background-color: {{::ds.backgroundColor}};
+          text-align: {{::ds.alignment.toLowerCase()}};
+        }
+        
+        li.{{::cssId}},
+        li.{{::cssId}} .details div.title div,
+        li.{{::cssId}} .details div.title a,
+        li.{{::cssId}} .details a.info-link {
+          color: {{::ds.foregroundColor}} !important;
+        }
+        
+        li.{{::cssId}} .details p {
+          font-weight: 100;
+        }
+        
+        li.{{::cssId}}:hover .details div.title a,
+        li.{{::cssId}} .details a.info-link {
+          text-decoration: underline;
+        }
+      </style>
+      <div class="details" ng-init="c.linkSetup(a)">
+        
+        <div ng-if="a.canExpand" class="title" ng-class="{'expanded': !a.expanded}" data-aid="{{::a.id}}" ng-click="c.toggleDetails(a)" tabindex="0" role="button" aria-expanded="{{a.expanded}}" ng-attr-aria-controls="{{a.canExpand ? c.wid+'-'+a.id+'-summary' : undefined}}">
+          <div ng-if="a.linkType !== 'title'" ng-bind="::a.title" id="{{::c.wid}}-{{::a.id}}-title"></div>
+        	<a ng-if="a.linkType === 'title'" ng-bind="::a.title" ng-href="{{::a.targetLink}}" target="{{::a.linkTarget}}" id="{{::c.wid}}-{{::a.id}}-title" tabindex="0"></a>
+          <span ng-if="a.canExpand" class="glyphicon glyphicon-menu-down" role="button" aria-label="{{a.expanded ? '${Hide details}' : '${Show details}'}}"></span>
+        </div>
+
+        <div ng-if="!a.canExpand" class="title" data-aid="{{::a.id}}">
+          <div ng-if="a.linkType !== 'title'" ng-bind="::a.title" id="{{::c.wid}}-{{::a.id}}-title"></div>
+        	<a ng-if="a.linkType === 'title'" ng-bind="::a.title" ng-href="{{::a.targetLink}}" target="{{::a.linkTarget}}" id="{{::c.wid}}-{{::a.id}}-title" tabindex="0"></a>
+        </div>
+
+        <div ng-if="a.canExpand" id="{{::c.wid}}-{{::a.id}}-summary" aria-labelledby="{{::c.wid}}-{{::a.id}}-title" role="region" aria-hidden={{!a.expanded}}>
+          <p ng-if="::a.summary" ng-bind="::a.summary"></p>
+          <a class="info-link" ng-if="a.linkType === 'normal'" ng-bind="::a.targetLinkText" ng-href="{{::a.targetLink}}" target="{{a.linkTarget}}" aria-label="{{a.targetLinkText}}" tabindex="{{a.expanded ? 0 : -1}}"></a>
+        </div>
+        
+      </div>
+    </li>
+  </ul>
+  <div ng-if="::(c.totalAnnouncements === 0)" class="empty-state-content panel-body">
+    <p>${No information available}</p>
+  </div>
+  <div class="panel-footer" ng-if="c.totalPages > 1">
+    <div ng-if="::c.options.paginate" class="btn-toolbar m-r pull-left">
+      <div class="btn-group">
+        <a ng-disabled="c.currentPage === 1" href="javascript:void(0)" ng-click="c.currentPage === 1 ? null : c.goToPage(c.currentPage - 1)" class="btn btn-default"  aria-label="${Previous page}" role="button"><i class="fa fa-chevron-left flip-icon-rtl"></i></a>
+      </div>
+      <div ng-if="c.totalPages > 1 && c.totalPages < 3" class="btn-group">
+        <a ng-repeat="i in c.getNumArray(c.totalPages) track by $index" ng-click="c.goToPage($index + 1)" href="javascript:void(0)" ng-class="{active: ($index + 1) === c.currentPage}" type="button" class="btn btn-default" aria-label="${Page} {{$index + 1}}" role="button">{{$index + 1}}</a>
+      </div>
+      <div class="btn-group">
+        <a ng-disabled="c.currentPage === c.totalPages" href="javascript:void(0)" ng-click="c.currentPage === c.totalPages ? null : c.goToPage(c.currentPage + 1)" class="btn btn-default" aria-label="${Next page}" role="button"><i class="fa fa-chevron-right flip-icon-rtl"></i></a>
+      </div>
+    </div>
+    <div ng-if="::c.options.paginate" class="m-t-xs panel-title pull-left">{{c.getPageInfo()}}</div>
+    <div ng-if="::(!c.options.paginate)" class="m-t-xs panel-title pull-left no-margin">${First {{::c.totalAnnouncements}} of {{::c.totalRecords}}}</div>
+    <a ng-if="::(c.options.view_all_page && !c.isViewAllPage())" ng-class="['pull-right', {'push-margin': c.options.paginate}]" ng-href="?id={{::c.options.view_all_page}}" role="link">${View all}</a>
+    <span class="clearfix"></span>
+  </div>
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>5e106a2f836c1e109cd8f796feaad3ec</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-16 05:48:46</sys_created_on>
+        <sys_id>832026eb836c1e109cd8f796feaad344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-16 05:48:46</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

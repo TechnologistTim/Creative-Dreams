@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Design Your Custom Pen">69d61968472b4610f66f97bf016d43d7</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-18 23:44:44</sys_created_on>
+        <sys_id>a3071da8472b4610f66f97bf016d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Design Your Custom Pen.Any User</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_a3071da8472b4610f66f97bf016d435f</sys_update_name>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-18 23:44:44</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_a3071da8472b4610f66f97bf016d435f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Design Your Custom Pen">69d61968472b4610f66f97bf016d43d7</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>tim.dingle</sys_created_by><sys_created_on>2024-07-18 23:44:44</sys_created_on><sys_id>a3071da8472b4610f66f97bf016d435f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Design Your Custom Pen.Any User</sys_name><sys_package/><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_a3071da8472b4610f66f97bf016d435f</sys_update_name><sys_updated_by>tim.dingle</sys_updated_by><sys_updated_on>2024-07-18 23:44:44</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>-1234088536</payload_hash>
+        <record_name>Design Your Custom Pen.Any User</record_name>
+        <reverted_from/>
+        <source>01171da8472b4610f66f97bf016d43da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-18 23:44:51</sys_created_on>
+        <sys_id>09175da8472b4610f66f97bf016d4344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190c83bf75b0000001</sys_recorded_at>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-18 23:44:51</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>0d175da8222b4610fc534619588bec43</update_guid>
+        <update_guid_history>0d175da8222b4610fc534619588bec43:-1234088536,c9175da8952b4610741d1846b25dfd3f:377943907</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Design Your Custom Pen.Any User">eb800c1a835992109cd8f796feaad31f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-10-19 03:46:04</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>2ce2555add194e40960eefab5cbd9000</sys_id>
+        <sys_metadata>a3071da8472b4610f66f97bf016d435f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Design Your Custom Pen.Any User</sys_name>
+        <sys_package/>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_a3071da8472b4610f66f97bf016d435f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_a3071da8472b4610f66f97bf016d435f">09175da8472b4610f66f97bf016d4344</sys_update_version>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-10-19 03:46:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Homepage - Container 2</name>
+        <order>2</order>
+        <semantic_tag/>
+        <sp_page display_value="cd_home">0b283f5f470f4210f66f97bf016d4387</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-16 05:44:40</sys_created_on>
+        <sys_id>4b3f52eb836c1e109cd8f796feaad3f8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Homepage - Container 2</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sp_container_4b3f52eb836c1e109cd8f796feaad3f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:15:45</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>sp_container_4b3f52eb836c1e109cd8f796feaad3f8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Homepage - Container 2</name><order>2</order><semantic_tag/><sp_page display_value="cd_home">0b283f5f470f4210f66f97bf016d4387</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-16 05:44:40</sys_created_on><sys_id>4b3f52eb836c1e109cd8f796feaad3f8</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Homepage - Container 2</sys_name><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>sp_container_4b3f52eb836c1e109cd8f796feaad3f8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-09 20:15:45</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-801947067</payload_hash>
+        <record_name>Homepage - Container 2</record_name>
+        <reverted_from/>
+        <source>40245fd84717c610f66f97bf016d43dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 20:15:45</sys_created_on>
+        <sys_id>5723c09b834112109cd8f796feaad366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19272ec5cbe0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:15:45</sys_updated_on>
+        <type>Container</type>
+        <update_guid>db23c09bfb4112108a3d58d396e60065</update_guid>
+        <update_guid_history>db23c09bfb4112108a3d58d396e60065:-801947067,68038c5b59411210820ca2689f1eb5c9:700208806,033f52eb3e6c1e10b45588f12ea580fa:-801947067</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Homepage - Container 2">7f43c49b834112109cd8f796feaad311</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 20:16:21</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>0c66749596c3429c92ae1a8db8838890</sys_id>
+        <sys_metadata>4b3f52eb836c1e109cd8f796feaad3f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Homepage - Container 2</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>sp_container_4b3f52eb836c1e109cd8f796feaad3f8</sys_update_name>
+        <sys_update_version display_value="sp_container_4b3f52eb836c1e109cd8f796feaad3f8">5723c09b834112109cd8f796feaad366</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:16:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

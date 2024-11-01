@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5589e44083cc1a109cd8f796feaad33b" label="Items" max_length="40" name="x_1423006_creative_items" type="collection">
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Price" max_length="40" name="price" type="string"/>
+        <element label="Item" max_length="40" name="item" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

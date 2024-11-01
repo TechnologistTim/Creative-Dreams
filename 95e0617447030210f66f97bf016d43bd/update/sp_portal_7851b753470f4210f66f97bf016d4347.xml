@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
     <sp_portal action="INSERT_OR_UPDATE">
+        <alternate_portal/>
         <css_variables/>
         <dark_theme/>
         <default>false</default>
@@ -7,8 +8,9 @@
         <enable_certificate_based_authentication>false</enable_certificate_based_authentication>
         <enable_favorites>false</enable_favorites>
         <hide_portal_name>false</hide_portal_name>
-        <homepage/>
+        <homepage display_value="cd_home">0b283f5f470f4210f66f97bf016d4387</homepage>
         <icon>c0813b93470f4210f66f97bf016d43f8</icon>
+        <inactive>false</inactive>
         <kb_knowledge_base/>
         <kb_knowledge_page/>
         <login_page display_value="cd_login">54e079f047830210f66f97bf016d4337</login_page>
@@ -27,14 +29,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-03 03:31:13</sys_created_on>
         <sys_id>7851b753470f4210f66f97bf016d4347</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Creative Dreams</sys_name>
         <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
         <sys_update_name>sp_portal_7851b753470f4210f66f97bf016d4347</sys_update_name>
-        <sys_updated_by>tim.dingle</sys_updated_by>
-        <sys_updated_on>2024-07-24 03:06:51</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 02:10:45</sys_updated_on>
         <theme display_value="Creative Dreams">dbd1717447830210f66f97bf016d4313</theme>
         <title>Creative Dreams</title>
         <ts_index_group/>

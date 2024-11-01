@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item/>
+        <catalog_variable>IO:5d2b930f832b0a109cd8f796feaad394</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>1000</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 05:38:51</sys_created_on>
+        <sys_id>5fc47f43832f0a109cd8f796feaad317</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>colors</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_5fc47f43832f0a109cd8f796feaad317</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-30 05:08:05</sys_updated_on>
+        <table/>
+        <ui_policy display_value="3 Beads">2460ff8783eb0a109cd8f796feaad3e6</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>colors</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=5fc47f43832f0a109cd8f796feaad317"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>catalog_ui_policy_action_5fc47f43832f0a109cd8f796feaad317</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item/><catalog_variable>IO:5d2b930f832b0a109cd8f796feaad394</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><order>1000</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>tim.dingle</sys_created_by><sys_created_on>2024-07-27 05:38:51</sys_created_on><sys_id>5fc47f43832f0a109cd8f796feaad317</sys_id><sys_mod_count>2</sys_mod_count><sys_name>colors</sys_name><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>catalog_ui_policy_action_5fc47f43832f0a109cd8f796feaad317</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-07-30 05:08:05</sys_updated_on><table/><ui_policy display_value="3 Beads">2460ff8783eb0a109cd8f796feaad3e6</ui_policy><value/><value_action>ignore</value_action><variable>colors</variable><variable_set/><visible>true</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=5fc47f43832f0a109cd8f796feaad317"/></record_update>]]></payload>
+        <payload_hash>-1860262277</payload_hash>
+        <record_name>colors</record_name>
+        <reverted_from/>
+        <source>40245fd84717c610f66f97bf016d43dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-08-12 02:46:55</sys_created_on>
+        <sys_id>c2e62158834012109cd8f796feaad309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191447b47a20000001</sys_recorded_at>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-08-12 02:46:55</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>8ee621585a4012109a4df30c24fa8508</update_guid>
+        <update_guid_history>8ee621585a4012109a4df30c24fa8508:0,cf8a038cfc778e106392471be391089a:1095468210,3c05f383f72f0a109a00fe8b9da671c9:-1087113918,e4d47f43c42f0a101b49c42dfb7554c1:-833386558</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="colors">6e3bb0f5836d12109cd8f796feaad3f1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-10-30 05:01:09</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>c73e25edb07646bc98dd0117e1bad090</sys_id>
+        <sys_metadata>5fc47f43832f0a109cd8f796feaad317</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>colors</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_5fc47f43832f0a109cd8f796feaad317</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_5fc47f43832f0a109cd8f796feaad317">c2e62158834012109cd8f796feaad309</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-30 05:01:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

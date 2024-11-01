@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_1423006_creative.Badge Reels</api_name>
+        <batch_exclude>false</batch_exclude>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Badge Reels</name>
+        <output_schema/>
+        <private>false</private>
+        <props/>
+        <required_translations>[ ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script/>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-08-11 04:14:38</sys_created_on>
+        <sys_id>b2a0f84c83cc1a109cd8f796feaad365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Badge Reels</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_b2a0f84c83cc1a109cd8f796feaad365</sys_update_name>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-08-11 04:14:38</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=b2a0f84c83cc1a109cd8f796feaad365"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>b2a0f84c83cc1a109cd8f796feaad365</id>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-08-11 04:14:38</sys_created_on>
+        <sys_id>c56138c883cc1a109cd8f796feaad37b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-08-11 04:14:38</sys_updated_on>
+        <table>sys_ux_data_broker_transform</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

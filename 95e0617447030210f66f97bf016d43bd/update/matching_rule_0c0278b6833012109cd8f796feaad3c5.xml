@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="matching_rule">
+    <matching_rule action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <assignment_rule/>
+        <condition/>
+        <matching_options>simple</matching_options>
+        <name>Test</name>
+        <order>100</order>
+        <resource_type_table>sys_user</resource_type_table>
+        <schedule_filter>false</schedule_filter>
+        <script/>
+        <supply_user_condition/>
+        <supply_user_field_name>sysuser_sys_id</supply_user_field_name>
+        <supply_user_table>matching_user_group_skills</supply_user_table>
+        <sys_class_name>matching_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 00:08:14</sys_created_on>
+        <sys_id>0c0278b6833012109cd8f796feaad3c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>matching_rule_0c0278b6833012109cd8f796feaad3c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 00:08:14</sys_updated_on>
+        <table>sn_hr_core_case_compensation</table>
+        <user/>
+    </matching_rule>
+</record_update>

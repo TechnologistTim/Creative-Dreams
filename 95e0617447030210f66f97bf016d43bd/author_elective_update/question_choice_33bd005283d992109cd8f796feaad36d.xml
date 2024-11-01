@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Top bead size?">ed7d44de839992109cd8f796feaad313</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 04:43:48</sys_created_on>
+        <sys_id>33bd005283d992109cd8f796feaad36d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Medium</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>question_choice_33bd005283d992109cd8f796feaad36d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 06:32:54</sys_updated_on>
+        <text>Medium</text>
+        <value>2</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=33bd005283d992109cd8f796feaad36d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>question_choice_33bd005283d992109cd8f796feaad36d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Top bead size?">ed7d44de839992109cd8f796feaad313</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-19 04:43:48</sys_created_on><sys_id>33bd005283d992109cd8f796feaad36d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Medium</sys_name><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>question_choice_33bd005283d992109cd8f796feaad36d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-19 06:32:54</sys_updated_on><text>Medium</text><value>2</value></question_choice><fx_price action="delete_multiple" query="id=33bd005283d992109cd8f796feaad36d"/></record_update>]]></payload>
+        <payload_hash>137297786</payload_hash>
+        <record_name>Medium</record_name>
+        <reverted_from/>
+        <source>0a3e3b06835992109cd8f796feaad3fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 06:32:55</sys_created_on>
+        <sys_id>2bb66456839d92109cd8f796feaad37a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192a37a9f8a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 06:32:55</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>afb66456939d9210664649940abf7e79</update_guid>
+        <update_guid_history>afb66456939d9210664649940abf7e79:137297786,95cd845230d99210ae93492921c01e06:-1924116001</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Medium">971234b5832d12109cd8f796feaad35b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 04:21:20</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>ce3420e367274f4e8e07173915119884</sys_id>
+        <sys_metadata>33bd005283d992109cd8f796feaad36d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Medium</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>question_choice_33bd005283d992109cd8f796feaad36d</sys_update_name>
+        <sys_update_version display_value="question_choice_33bd005283d992109cd8f796feaad36d">2bb66456839d92109cd8f796feaad37a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:21:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

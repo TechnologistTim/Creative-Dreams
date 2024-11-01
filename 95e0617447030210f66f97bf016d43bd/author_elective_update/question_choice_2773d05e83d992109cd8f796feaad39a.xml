@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Bead color?">e5735c1e83d992109cd8f796feaad3ed</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 05:08:56</sys_created_on>
+        <sys_id>2773d05e83d992109cd8f796feaad39a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Black</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>question_choice_2773d05e83d992109cd8f796feaad39a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 05:08:56</sys_updated_on>
+        <text>Black</text>
+        <value>1</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=2773d05e83d992109cd8f796feaad39a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>question_choice_2773d05e83d992109cd8f796feaad39a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Bead color?">e5735c1e83d992109cd8f796feaad3ed</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-19 05:08:56</sys_created_on><sys_id>2773d05e83d992109cd8f796feaad39a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Black</sys_name><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>question_choice_2773d05e83d992109cd8f796feaad39a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-19 05:08:56</sys_updated_on><text>Black</text><value>1</value></question_choice><fx_price action="delete_multiple" query="id=2773d05e83d992109cd8f796feaad39a"/></record_update>]]></payload>
+        <payload_hash>-698605479</payload_hash>
+        <record_name>Black</record_name>
+        <reverted_from/>
+        <source>0a3e3b06835992109cd8f796feaad3fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 05:08:56</sys_created_on>
+        <sys_id>a983545e83d992109cd8f796feaad3fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192a32dbd580000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 05:08:56</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>ad83545ea4d99210dc985de584b1aefc</update_guid>
+        <update_guid_history>ad83545ea4d99210dc985de584b1aefc:-698605479</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Black">471234b5832d12109cd8f796feaad300</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 04:21:20</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>19a23f7d768b4e6a9e4dc52997323509</sys_id>
+        <sys_metadata>2773d05e83d992109cd8f796feaad39a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Black</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>question_choice_2773d05e83d992109cd8f796feaad39a</sys_update_name>
+        <sys_update_version display_value="question_choice_2773d05e83d992109cd8f796feaad39a">a983545e83d992109cd8f796feaad3fd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:21:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

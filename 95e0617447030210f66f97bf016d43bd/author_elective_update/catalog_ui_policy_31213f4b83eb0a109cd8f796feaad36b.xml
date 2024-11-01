@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_ui_policy">
+    <catalog_ui_policy action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <catalog_conditions>IO:cbe4fcb9832d12109cd8f796feaad307=false^EQ</catalog_conditions>
+        <catalog_item display_value="Chicken badge reel">c16cc95447efc210f66f97bf016d43b0</catalog_item>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>50</order>
+        <published_ref/>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>No beads</short_description>
+        <sys_class_name>catalog_ui_policy</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 05:23:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>31213f4b83eb0a109cd8f796feaad36b</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>No beads</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>catalog_ui_policy_31213f4b83eb0a109cd8f796feaad36b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:45:33</sys_updated_on>
+        <table/>
+        <ui_type>0</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>catalog_ui_policy_31213f4b83eb0a109cd8f796feaad36b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:cbe4fcb9832d12109cd8f796feaad307=false^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Chicken badge reel"&gt;c16cc95447efc210f66f97bf016d43b0&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;50&lt;/order&gt;&lt;published_ref/&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;No beads&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tim.dingle&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-07-27 05:23:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;31213f4b83eb0a109cd8f796feaad36b&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;No beads&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Creative Dreams" source="x_1423006_creative"&gt;95e0617447030210f66f97bf016d43bd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Creative Dreams"&gt;95e0617447030210f66f97bf016d43bd&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_31213f4b83eb0a109cd8f796feaad36b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-30 04:45:33&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1323903273</payload_hash>
+        <record_name>No beads</record_name>
+        <reverted_from/>
+        <source>0a3e3b06835992109cd8f796feaad3fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 04:45:34</sys_created_on>
+        <sys_id>8ea7b031836d12109cd8f796feaad370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192dbbe4a4c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:45:34</sys_updated_on>
+        <type>Catalog UI Policy</type>
+        <update_guid>06a7b0313e6d1210f1f8999888ec8c70</update_guid>
+        <update_guid_history>06a7b0313e6d1210f1f8999888ec8c70:-1323903273,c4a77031a76d12106ddcb8db95998372:-1875010030,335778fd502d12108871b75f30d79b80:-1323903273,8ae621581a40121090af3d20fe72293c:0,7dabc4d326ef0a10b6e77e868a1b5110:-887745585,2d2b0893f8ef0a104c82ec5c36ca82c0:1592522699,42394c9f89af0a10e506af2f425af875:-887745585,efc80c5f11af0a101bd53d0bbabbb17c:-2047575405,1ca8445f3caf0a1029d673d8c9f7a1ac:-1158793007,6477849bb5af0a10b9f246f187e3a545:-2047575405,af27c85b39af0a10ebf925d9cdef7046:-984199336,3e07c05bacaf0a109d0755e5106cc471:-924454130,e0e6c81b32af0a1077b140e4f66e6b09:1296657408,5081f38bdceb0a1045bef616a8fd9b5d:-887745585,c631bf4bb3eb0a106d3a23bec3f8a63f:1023278945</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="No beads">0ab5c1b983ad12109cd8f796feaad363</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 05:47:00</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy">catalog_ui_policy</sys_db_object>
+        <sys_id>2e4896830fd84628951891bc48059040</sys_id>
+        <sys_metadata>31213f4b83eb0a109cd8f796feaad36b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>No beads</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_31213f4b83eb0a109cd8f796feaad36b</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_31213f4b83eb0a109cd8f796feaad36b">8ea7b031836d12109cd8f796feaad370</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 05:47:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

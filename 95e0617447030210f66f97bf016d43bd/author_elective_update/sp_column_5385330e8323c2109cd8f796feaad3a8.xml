@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>2</order>
+        <semantic_tag/>
+        <size>3</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">93853fca8323c2109cd8f796feaad332</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-24 03:08:07</sys_created_on>
+        <sys_id>5385330e8323c2109cd8f796feaad3a8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sp_column_5385330e8323c2109cd8f796feaad3a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 02:01:39</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>sp_column_5385330e8323c2109cd8f796feaad3a8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>2</order><semantic_tag/><size>3</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">93853fca8323c2109cd8f796feaad332</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>tim.dingle</sys_created_by><sys_created_on>2024-07-24 03:08:07</sys_created_on><sys_id>5385330e8323c2109cd8f796feaad3a8</sys_id><sys_mod_count>2</sys_mod_count><sys_name>2</sys_name><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>sp_column_5385330e8323c2109cd8f796feaad3a8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-12 02:01:39</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-372803741</payload_hash>
+        <record_name>2</record_name>
+        <reverted_from/>
+        <source>40245fd84717c610f66f97bf016d43dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-12 02:01:39</sys_created_on>
+        <sys_id>4b8cd594830012109cd8f796feaad3af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1914451d7910000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 02:01:39</sys_updated_on>
+        <type>Column</type>
+        <update_guid>cf8cd59478001210ec1105390e14abae</update_guid>
+        <update_guid_history>cf8cd59478001210ec1105390e14abae:-372803741,ec69f382d463c210128ff4c8944af409:80068611,1785330e5223c21024bd6903e5d395a9:532940963</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2">ff8c9594830012109cd8f796feaad38b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-12 02:01:43</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>848333281cde4cf08068380317552640</sys_id>
+        <sys_metadata>5385330e8323c2109cd8f796feaad3a8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>sp_column_5385330e8323c2109cd8f796feaad3a8</sys_update_name>
+        <sys_update_version display_value="sp_column_5385330e8323c2109cd8f796feaad3a8">4b8cd594830012109cd8f796feaad3af</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 02:01:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x.1423006.conference-notes.*</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-08-09 20:31:52</sys_created_on>
+        <sys_id>e4edf1a383b786109cd8f796feaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.1423006.conference-notes.*</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sys_security_acl_e4edf1a383b786109cd8f796feaad335</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-08-09 20:31:52</sys_updated_on>
+        <type display_value="ux_route">b9eb8a1b873303002941b53046cb1234</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>sys_security_acl_e4edf1a383b786109cd8f796feaad335</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description/><local_or_existing>Local</local_or_existing><name>x.1423006.conference-notes.*</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-08-09 20:31:52</sys_created_on><sys_id>e4edf1a383b786109cd8f796feaad335</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x.1423006.conference-notes.*</sys_name><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>sys_security_acl_e4edf1a383b786109cd8f796feaad335</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-08-09 20:31:52</sys_updated_on><type display_value="ux_route">b9eb8a1b873303002941b53046cb1234</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-611527803</payload_hash>
+        <record_name>x.1423006.conference-notes.*</record_name>
+        <reverted_from/>
+        <source>40245fd84717c610f66f97bf016d43dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-08-09 20:31:53</sys_created_on>
+        <sys_id>f8edf1a383b786109cd8f796feaad3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19138d735000000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-08-09 20:31:53</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>acedf1a319b7861023eb73d7fce58ca0</update_guid>
+        <update_guid_history>acedf1a319b7861023eb73d7fce58ca0:-611527803</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-10-30 04:55:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>823efd8b1fd449a9a34c0d5568e71ee9</sys_id>
+        <sys_metadata>e4edf1a383b786109cd8f796feaad335</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.1423006.conference-notes.*</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>sys_security_acl_e4edf1a383b786109cd8f796feaad335</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_e4edf1a383b786109cd8f796feaad335">f8edf1a383b786109cd8f796feaad3a1</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:55:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

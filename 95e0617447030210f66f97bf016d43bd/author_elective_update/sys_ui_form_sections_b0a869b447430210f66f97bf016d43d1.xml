@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="b0a869b447430210f66f97bf016d43d1" sys_domain="global" table="x_1423006_creative_orders" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-24 23:08:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f0a869b447430210f66f97bf016d43d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1423006_creative_orders" name="x_1423006_creative_orders" sys_domain="global" view="Default view">b0a869b447430210f66f97bf016d43d1</sys_ui_form>
+            <sys_ui_section caption="Order Details" display_value="Order Details" name="x_1423006_creative_orders" sys_domain="global" view="Default view">38a869b447430210f66f97bf016d43ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-24 23:08:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-24 23:08:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>30a869b447430210f66f97bf016d43d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1423006_creative_orders" name="x_1423006_creative_orders" sys_domain="global" view="Default view">b0a869b447430210f66f97bf016d43d1</sys_ui_form>
+            <sys_ui_section caption="Payment Method" display_value="Payment Method" name="x_1423006_creative_orders" sys_domain="global" view="Default view">b8a869b447430210f66f97bf016d43cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-24 23:08:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1423006_creative_orders</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-24 23:08:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0a869b447430210f66f97bf016d43d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1423006_creative_orders</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b0a869b447430210f66f97bf016d43d1</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-24 23:08:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>sys_ui_form_sections_b0a869b447430210f66f97bf016d43d1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="b0a869b447430210f66f97bf016d43d1" sys_domain="global" table="x_1423006_creative_orders" version="3"><sys_ui_form_section action="INSERT_OR_UPDATE"><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-24 23:08:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f0a869b447430210f66f97bf016d43d4</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_1423006_creative_orders" name="x_1423006_creative_orders" sys_domain="global" view="Default view">b0a869b447430210f66f97bf016d43d1</sys_ui_form><sys_ui_section caption="Order Details" display_value="Order Details" name="x_1423006_creative_orders" sys_domain="global" view="Default view">38a869b447430210f66f97bf016d43ce</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-24 23:08:39</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-24 23:08:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>30a869b447430210f66f97bf016d43d5</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_1423006_creative_orders" name="x_1423006_creative_orders" sys_domain="global" view="Default view">b0a869b447430210f66f97bf016d43d1</sys_ui_form><sys_ui_section caption="Payment Method" display_value="Payment Method" name="x_1423006_creative_orders" sys_domain="global" view="Default view">b8a869b447430210f66f97bf016d43cf</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-24 23:08:39</sys_updated_on></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>x_1423006_creative_orders</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-24 23:08:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b0a869b447430210f66f97bf016d43d1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1423006_creative_orders</sys_name><sys_overrides/><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>sys_ui_form_sections_b0a869b447430210f66f97bf016d43d1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-24 23:08:39</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>-1060838659</payload_hash>
+        <record_name>Orders</record_name>
+        <reverted_from/>
+        <source>40245fd84717c610f66f97bf016d43dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 05:24:40</sys_created_on>
+        <sys_id>d2eaadab838092109cd8f796feaad3b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191788b4b650000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 05:24:40</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>5aeaadab5a8092108159dc98730a52af</update_guid>
+        <update_guid_history>5aeaadab5a8092108159dc98730a52af:-1060838659,81a869b488430210e1bd7998f78152da:-1746631396,38a869b4304302109096ce4134f445d6:-1060838659,3ca869b49343021003400fd0d4648cd2:-1964204060</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 06:13:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>bc8b98e04b5a4ef8925b78d73108b531</sys_id>
+        <sys_metadata>b0a869b447430210f66f97bf016d43d1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1423006_creative_orders</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent display_value="">7442217c47030210f66f97bf016d4398</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_b0a869b447430210f66f97bf016d43d1</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_b0a869b447430210f66f97bf016d43d1">d2eaadab838092109cd8f796feaad3b0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 06:13:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

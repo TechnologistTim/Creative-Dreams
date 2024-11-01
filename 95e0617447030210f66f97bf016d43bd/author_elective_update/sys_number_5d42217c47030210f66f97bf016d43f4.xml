@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_1423006_creative_orders">x_1423006_creative_orders</category>
+        <maximum_digits>4</maximum_digits>
+        <number>1000</number>
+        <prefix>ORD</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-24 22:40:50</sys_created_on>
+        <sys_id>5d42217c47030210f66f97bf016d43f4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>ORD</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sys_number_5d42217c47030210f66f97bf016d43f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 05:53:53</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>sys_number_5d42217c47030210f66f97bf016d43f4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_1423006_creative_orders">x_1423006_creative_orders</category><maximum_digits>4</maximum_digits><number>1000</number><prefix>ORD</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-24 22:40:50</sys_created_on><sys_id>5d42217c47030210f66f97bf016d43f4</sys_id><sys_mod_count>4</sys_mod_count><sys_name>ORD</sys_name><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>sys_number_5d42217c47030210f66f97bf016d43f4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-22 05:53:53</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>97026116</payload_hash>
+        <record_name>ORD</record_name>
+        <reverted_from/>
+        <source>40245fd84717c610f66f97bf016d43dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 05:53:53</sys_created_on>
+        <sys_id>da91796783c092109cd8f796feaad3f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19178a60bae0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 05:53:53</sys_updated_on>
+        <type>Number</type>
+        <update_guid>5291796773c092104c4a5a54f83f82f5</update_guid>
+        <update_guid_history>5291796773c092104c4a5a54f83f82f5:97026116,a5fe292387c09210bbd5f1d3ba0de8c8:1981826311,78fe21234ec09210327ab5b0c0771b5e:97026116,ec9c692ff780921090c4ee6559e7f37c:-1406169976,a09c692fde80921046bd14a3272d617a:1981826311</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 06:13:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>6ab4a9e0f8d944c1af737391c6df6441</sys_id>
+        <sys_metadata>5d42217c47030210f66f97bf016d43f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ORD</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent display_value="">7442217c47030210f66f97bf016d4398</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>sys_number_5d42217c47030210f66f97bf016d43f4</sys_update_name>
+        <sys_update_version display_value="sys_number_5d42217c47030210f66f97bf016d43f4">da91796783c092109cd8f796feaad3f5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 06:13:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

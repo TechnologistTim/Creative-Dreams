@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 03:17:33</sys_created_on>
+        <sys_id>30836c3d83a912109cd8f796feaad34d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.1423006.creative-dreams.*.snc_internal</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_security_acl display_value="x.1423006.creative-dreams.*">70836c3d83a912109cd8f796feaad34c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_30836c3d83a912109cd8f796feaad34d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 03:17:33</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>sys_security_acl_role_30836c3d83a912109cd8f796feaad34d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-30 03:17:33</sys_created_on><sys_id>30836c3d83a912109cd8f796feaad34d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x.1423006.creative-dreams.*.snc_internal</sys_name><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_security_acl display_value="x.1423006.creative-dreams.*">70836c3d83a912109cd8f796feaad34c</sys_security_acl><sys_update_name>sys_security_acl_role_30836c3d83a912109cd8f796feaad34d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-30 03:17:33</sys_updated_on><sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1242181289</payload_hash>
+        <record_name>x.1423006.creative-dreams.*.snc_internal</record_name>
+        <reverted_from/>
+        <source>7091e531833302109cd8f796feaad305</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-08-04 07:58:49</sys_created_on>
+        <sys_id>f293a87d83a912109cd8f796feaad319</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1911c65f2a80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Access Roles</type>
+        <update_guid>b293a87d0aa9121097be2a152a74d819</update_guid>
+        <update_guid_history>b293a87d0aa9121097be2a152a74d819:-1242181289</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x.1423006.creative-dreams.*.snc_internal">3e93a87d83a912109cd8f796feaad319</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 03:17:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1a649c49d1e3439482c708712790f8f1</sys_id>
+        <sys_metadata>30836c3d83a912109cd8f796feaad34d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.1423006.creative-dreams.*.snc_internal</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent display_value="">70836c3d83a912109cd8f796feaad34c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_30836c3d83a912109cd8f796feaad34d</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_30836c3d83a912109cd8f796feaad34d">f293a87d83a912109cd8f796feaad319</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 03:17:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>200</order>
+        <sc_cat_item display_value="Gnome badge reel">afef051c47efc210f66f97bf016d43d1</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 04:57:45</sys_created_on>
+        <sys_id>ea6b6b0f83ab0a109cd8f796feaad333</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Bead Color.Gnome badge reel</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>io_set_item_ea6b6b0f83ab0a109cd8f796feaad333</sys_update_name>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 05:03:51</sys_updated_on>
+        <variable_set display_value="Bead Color">1e4bab0f83ab0a109cd8f796feaad3ac</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>io_set_item_ea6b6b0f83ab0a109cd8f796feaad333</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>200</order><sc_cat_item display_value="Gnome badge reel">afef051c47efc210f66f97bf016d43d1</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>tim.dingle</sys_created_by><sys_created_on>2024-07-27 04:57:45</sys_created_on><sys_id>ea6b6b0f83ab0a109cd8f796feaad333</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Bead Color.Gnome badge reel</sys_name><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>io_set_item_ea6b6b0f83ab0a109cd8f796feaad333</sys_update_name><sys_updated_by>tim.dingle</sys_updated_by><sys_updated_on>2024-07-27 05:03:51</sys_updated_on><variable_set display_value="Bead Color">1e4bab0f83ab0a109cd8f796feaad3ac</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>1786248652</payload_hash>
+        <record_name>Bead Color.Gnome badge reel</record_name>
+        <reverted_from/>
+        <source>40245fd84717c610f66f97bf016d43dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 05:03:51</sys_created_on>
+        <sys_id>bbcceb0383eb0a109cd8f796feaad3e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190f292e3e50000001</sys_recorded_at>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 05:03:51</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>33cceb0316eb0a107dc1efa518b681e7</update_guid>
+        <update_guid_history>33cceb0316eb0a107dc1efa518b681e7:1786248652,ee6b674f0aab0a10a5769d3c4a0d5838:-1153218229</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Bead Color.Gnome badge reel">86e62158834012109cd8f796feaad32c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-08-12 02:46:55</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>b9097051f879452ca0afba59ec2f9010</sys_id>
+        <sys_metadata>ea6b6b0f83ab0a109cd8f796feaad333</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bead Color.Gnome badge reel</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>io_set_item_ea6b6b0f83ab0a109cd8f796feaad333</sys_update_name>
+        <sys_update_version display_value="io_set_item_ea6b6b0f83ab0a109cd8f796feaad333">bbcceb0383eb0a109cd8f796feaad3e7</sys_update_version>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-08-12 02:46:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

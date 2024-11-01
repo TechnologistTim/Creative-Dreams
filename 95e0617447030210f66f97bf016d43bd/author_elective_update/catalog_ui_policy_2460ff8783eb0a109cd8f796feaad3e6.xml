@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_ui_policy">
+    <catalog_ui_policy action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <catalog_conditions>IO:0d54151447230610f66f97bf016d432e=3^IO:dab1a74b836b0a109cd8f796feaad39a=true^EQ</catalog_conditions>
+        <catalog_item/>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>300</order>
+        <published_ref/>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>3 Beads</short_description>
+        <sys_class_name>catalog_ui_policy</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-07-27 05:19:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2460ff8783eb0a109cd8f796feaad3e6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>3 Beads</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>catalog_ui_policy_2460ff8783eb0a109cd8f796feaad3e6</sys_update_name>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-07-27 07:04:19</sys_updated_on>
+        <table/>
+        <ui_type>0</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>catalog_ui_policy_2460ff8783eb0a109cd8f796feaad3e6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:0d54151447230610f66f97bf016d432e=3^IO:dab1a74b836b0a109cd8f796feaad39a=true^EQ&lt;/catalog_conditions&gt;&lt;catalog_item/&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;300&lt;/order&gt;&lt;published_ref/&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;3 Beads&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tim.dingle&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-07-27 05:19:28&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2460ff8783eb0a109cd8f796feaad3e6&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;3 Beads&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Creative Dreams" source="x_1423006_creative"&gt;95e0617447030210f66f97bf016d43bd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Creative Dreams"&gt;95e0617447030210f66f97bf016d43bd&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_2460ff8783eb0a109cd8f796feaad3e6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;tim.dingle&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-07-27 07:04:19&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1970881741</payload_hash>
+        <record_name>3 Beads</record_name>
+        <reverted_from/>
+        <source>40245fd84717c610f66f97bf016d43dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-08-12 02:46:56</sys_created_on>
+        <sys_id>8ae62158834012109cd8f796feaad33b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191447b49050000001</sys_recorded_at>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-08-12 02:46:56</sys_updated_on>
+        <type>Catalog UI Policy</type>
+        <update_guid>46e621580c4012102899433a0508153b</update_guid>
+        <update_guid_history>46e621580c4012102899433a0508153b:0,a468c41fc0af0a107660796df7b5499f:-1512662554,2801b74bceeb0a104b4dd1de2018133c:120156256,0b70b30b61eb0a10e644f57c1998c434:-1081829282,a460ffc78deb0a1026b7457341de55c4:500145352</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="3 Beads">123b7435836d12109cd8f796feaad348</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tim.dingle</sys_created_by>
+        <sys_created_on>2024-10-30 05:01:09</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy">catalog_ui_policy</sys_db_object>
+        <sys_id>0745993618e648d788304d890e49a009</sys_id>
+        <sys_metadata>2460ff8783eb0a109cd8f796feaad3e6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3 Beads</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_2460ff8783eb0a109cd8f796feaad3e6</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_2460ff8783eb0a109cd8f796feaad3e6">8ae62158834012109cd8f796feaad33b</sys_update_version>
+        <sys_updated_by>tim.dingle</sys_updated_by>
+        <sys_updated_on>2024-10-30 05:01:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

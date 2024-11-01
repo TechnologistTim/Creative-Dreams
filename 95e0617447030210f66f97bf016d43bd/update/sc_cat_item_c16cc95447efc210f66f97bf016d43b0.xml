@@ -4,8 +4,8 @@
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
-        <category display_value="Spring ">e41dccad474f0210f66f97bf016d436c</category>
-        <checked_out>false</checked_out>
+        <category display_value="Badge reels">331765d047a30610f66f97bf016d430f</category>
+        <checked_out>true</checked_out>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
@@ -24,6 +24,7 @@
         <ignore_price>false</ignore_price>
         <image/>
         <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
         <mandatory_attachment>false</mandatory_attachment>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
@@ -46,7 +47,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="Tim Dingle">50b3361b47874210f66f97bf016d4312</owner>
+        <owner/>
         <picture>91041d9047230610f66f97bf016d431c</picture>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=c16cc95447efc210f66f97bf016d43b0&amp;sysparm_preview=true", "summary");</preview>
         <price>16</price>
@@ -67,21 +68,21 @@
         <sys_created_by>tim.dingle</sys_created_by>
         <sys_created_on>2024-07-18 04:20:45</sys_created_on>
         <sys_id>c16cc95447efc210f66f97bf016d43b0</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>439</sys_mod_count>
         <sys_name>Chicken badge reel</sys_name>
         <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
         <sys_update_name>sc_cat_item_c16cc95447efc210f66f97bf016d43b0</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-30 05:17:35</sys_updated_on>
+        <sys_updated_on>2024-10-30 06:03:01</sys_updated_on>
         <taxonomy_topic/>
         <template display_value="Badge reels">051545d847afc210f66f97bf016d4395</template>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>11</version>
+        <version>439</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Chicken badge reel">c16cc95447efc210f66f97bf016d43b0</catalog_item>
+        <catalog_variable>IO:ed7d44de839992109cd8f796feaad313</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 04:50:12</sys_created_on>
+        <sys_id>a93f401683d992109cd8f796feaad3a2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>top_bead_size</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_a93f401683d992109cd8f796feaad3a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 06:39:30</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Beads false">39bec49283d992109cd8f796feaad330</ui_policy>
+        <value/>
+        <value_action>clear_value</value_action>
+        <variable>top_bead_size</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=a93f401683d992109cd8f796feaad3a2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>catalog_ui_policy_action_a93f401683d992109cd8f796feaad3a2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Chicken badge reel">c16cc95447efc210f66f97bf016d43b0</catalog_item><catalog_variable>IO:ed7d44de839992109cd8f796feaad313</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-19 04:50:12</sys_created_on><sys_id>a93f401683d992109cd8f796feaad3a2</sys_id><sys_mod_count>3</sys_mod_count><sys_name>top_bead_size</sys_name><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>catalog_ui_policy_action_a93f401683d992109cd8f796feaad3a2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-19 06:39:30</sys_updated_on><table/><ui_policy display_value="Beads false">39bec49283d992109cd8f796feaad330</ui_policy><value/><value_action>clear_value</value_action><variable>top_bead_size</variable><variable_set/><visible>false</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=a93f401683d992109cd8f796feaad3a2"/></record_update>]]></payload>
+        <payload_hash>1416084476</payload_hash>
+        <record_name>top_bead_size</record_name>
+        <reverted_from/>
+        <source>0a3e3b06835992109cd8f796feaad3fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 06:39:30</sys_created_on>
+        <sys_id>4c48ecd6839d92109cd8f796feaad341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192a380a6920000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 06:39:30</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>c048ecd6c59d92102e3658f6a2d8c941</update_guid>
+        <update_guid_history>c048ecd6c59d92102e3658f6a2d8c941:1416084476,da15ac52299d9210c68427a41b4a7a4d:162194993,41156c52739d92108d249911546c15a7:821231026,8b3f8016b7d992100f89e17902d01d40:-531884278</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="top_bead_size">a622b8b5832d12109cd8f796feaad3b6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 04:21:33</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>54f6ba2f9c2944d2a8aa6b7d9a66daa4</sys_id>
+        <sys_metadata>a93f401683d992109cd8f796feaad3a2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>top_bead_size</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_a93f401683d992109cd8f796feaad3a2</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_a93f401683d992109cd8f796feaad3a2">4c48ecd6839d92109cd8f796feaad341</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:21:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

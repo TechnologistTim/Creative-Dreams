@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6c8f655a8db0021087de63ac7f1f00b1" extends="task" label="Transfer Order Line Task" max_length="40" name="alm_transfer_order_line_task" type="collection">
+        <element label="Email" max_length="40" name="x_1423006_creative_email" type="string"/>
+    </element>
+</database>

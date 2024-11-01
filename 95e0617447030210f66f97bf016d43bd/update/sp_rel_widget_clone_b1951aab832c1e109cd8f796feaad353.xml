@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="CD User Menu">a5951aab832c1e109cd8f796feaad34f</child>
+        <cloned>2024-09-16 04:26:14</cloned>
+        <last_validated>2024-09-16 04:26:14</last_validated>
+        <parent display_value="sp-user-menu">3333b2ba5b1032000d7ec7ad31f91a27</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function($scope, $rootScope) {
+  /* widget controller */
+  var c = this;
+	
+	$scope.userID = $scope.user.sys_id;
+	
+	$rootScope.$on('sp.avatar_changed', function() {
+		$scope.userID = "";
+		$timeout(function(){
+			$scope.userID = $scope.user.sys_id;
+		});
+	});
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.navbar-nav {
+	margin: 0px;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;sp-user-menu&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;sp-user-menu&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-01-17 18:24:49&lt;/sys_created_on&gt;&lt;sys_id&gt;3333b2ba5b1032000d7ec7ad31f91a27&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;sp-user-menu&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;b6f0f1568df0021087de63ac7f1f00c9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_3333b2ba5b1032000d7ec7ad31f91a27&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-26 05:11:14&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;ul ng-if="::user.logged_in" class="nav navbar-nav" aria-label="${User menu}"&gt;
+  &lt;!-- chat, avatar, and logout --&gt;
+  &lt;li ng-if="::data.connect_support_queue_id"&gt;&lt;a href ng-click="openPopUp()"&gt;${Live Chat}&lt;/a&gt;&lt;/li&gt;
+  &lt;li class="dropdown hidden-xs"&gt;
+    &lt;a href class="dropdown-toggle" data-toggle="dropdown"&gt;
+      &lt;span class="navbar-avatar"&gt;&lt;sn-avatar class="avatar-small-medium" primary="userID"&gt;&lt;/sn-avatar&gt;&lt;/span&gt;
+      &lt;span class="visible-lg-inline"&gt;{{::user.name}}&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;ul class="dropdown-menu"&gt;
+      &lt;li&gt;&lt;a ng-href="?id=user_profile&amp;sys_id={{::user.sys_id}}"&gt;${Profile}&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="{{::portal.logoutUrl}}"&gt;${Logout}&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class="visible-xs-block"&gt;&lt;a ng-href="?id=user_profile&amp;sys_id={{::user.sys_id}}"&gt;&lt;span class="navbar-avatar"&gt;&lt;sn-avatar class="avatar-small-medium" primary="userID"&gt;&lt;/sn-avatar&gt;&lt;/span&gt;{{::user.name}}&lt;/a&gt;&lt;/li&gt;
+  &lt;li class="visible-xs-block"&gt;&lt;a href="{{::portal.logoutUrl}}"&gt;${Logout}&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;  
+
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-16 05:02:31</sys_created_on>
+        <sys_id>b1951aab832c1e109cd8f796feaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a5951aab832c1e109cd8f796feaad34f</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_b1951aab832c1e109cd8f796feaad353</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-16 05:02:31</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>

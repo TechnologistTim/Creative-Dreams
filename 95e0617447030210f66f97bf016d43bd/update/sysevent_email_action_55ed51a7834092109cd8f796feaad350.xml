@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Orders" name="Orders">37892d2b838092109cd8f796feaad3bb</category>
+        <collection>x_1423006_creative_orders</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>triggered</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<style>
+        .banner {
+            background-color: black; /* Black background color */
+          	border-radius: 5px; /*banner rounded corners*/
+            color: white; /* Text color */
+            padding: 5px; /* Padding for spacing */
+            text-align: center; /* Centered text */
+        	border-bottom: 5px solid pink; /* Cyan bottom border */ 
+  }
+    </style>
+<div class="banner"><img src="/sys_attachment.do?sys_id=da452923838092109cd8f796feaad3c1" alt="" width="110" height="62" data-library="true"></div>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">Dear ${first_name},</span></p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">Thank you for placing an order. We will begin processing your order shortly.</span></p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>Order: ${URI_REF}</strong></span></p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>Order Date: </strong>${order_date}</span></p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>Total:</strong> ${payment_method}</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">Respectfully,</span></p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">Your Dream Creator</span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Order over $50 </name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups name="Creative Dreams">b724fe9747874210f66f97bf016d437e</recipient_groups>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Order ${number} has been received</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 05:09:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>55ed51a7834092109cd8f796feaad350</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Order over $50 </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sysevent_email_action_55ed51a7834092109cd8f796feaad350</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 05:28:19</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

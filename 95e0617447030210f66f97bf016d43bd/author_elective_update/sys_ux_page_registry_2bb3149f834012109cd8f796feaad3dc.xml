@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>e7b3149f834012109cd8f796feaad3d8</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>contact-info</path>
+        <root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 04:25:21</sys_created_on>
+        <sys_id>2bb3149f834012109cd8f796feaad3dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Contact Info</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_update_name>sys_ux_page_registry_2bb3149f834012109cd8f796feaad3dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 04:25:21</sys_updated_on>
+        <title>Contact Info</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</application>
+        <file_path/>
+        <instance_id>4c4332581b56391865324089bd4bcba6</instance_id>
+        <instance_name>dev199187</instance_name>
+        <name>sys_ux_page_registry_2bb3149f834012109cd8f796feaad3dc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>e7b3149f834012109cd8f796feaad3d8</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>contact-info</path><root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-21 04:25:21</sys_created_on><sys_id>2bb3149f834012109cd8f796feaad3dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Contact Info</sys_name><sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package><sys_policy/><sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope><sys_update_name>sys_ux_page_registry_2bb3149f834012109cd8f796feaad3dc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-21 04:25:21</sys_updated_on><title>Contact Info</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>-448426372</payload_hash>
+        <record_name>Contact Info</record_name>
+        <reverted_from/>
+        <source>40245fd84717c610f66f97bf016d43dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 04:25:21</sys_created_on>
+        <sys_id>2bb35c9f834012109cd8f796feaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191732ea1590000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 04:25:21</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>2fb35c9f554012102ada043ffe9100f5</update_guid>
+        <update_guid_history>2fb35c9f554012102ada043ffe9100f5:-448426372</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 04:27:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>6bbc61656e994810872ca07a9da91440</sys_id>
+        <sys_metadata>2bb3149f834012109cd8f796feaad3dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Contact Info</sys_name>
+        <sys_package display_value="Creative Dreams" source="x_1423006_creative">95e0617447030210f66f97bf016d43bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creative Dreams">95e0617447030210f66f97bf016d43bd</sys_scope>
+        <sys_scope_delete display_value="">5642f1e25de548f4894c2d80cb432b31</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_2bb3149f834012109cd8f796feaad3dc</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_2bb3149f834012109cd8f796feaad3dc">2bb35c9f834012109cd8f796feaad3f6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 04:27:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
